@@ -148,7 +148,6 @@
 [Notice] in [WorkerThread::operator()()]: Exiting worker thread
 [Notice] in [WorkerThread::operator()()]: Exiting worker thread
 [Notice] in [WorkerThread::operator()()]: Exiting worker thread
-[Notice] in [WorkerThread::~WorkerThread]: 99 messages handled
 [Notice] in [WorkerThread::operator()()]: Exiting worker thread
 [Notice] in [WorkerThread::operator()()]: Exiting worker thread
 [Notice] in [WorkerThread::operator()()]: Exiting worker thread
@@ -162,25 +161,26 @@
 [Notice] in [WorkerThread::operator()()]: Exiting worker thread
 [Notice] in [WorkerThread::operator()()]: Exiting worker thread
 [Notice] in [WorkerThread::operator()()]: Exiting worker thread
-[Notice] in [WorkerThread::~WorkerThread]: 117 messages handled
-[Notice] in [WorkerThread::~WorkerThread]: 90 messages handled
-[Notice] in [WorkerThread::~WorkerThread]: 99 messages handled
-[Notice] in [WorkerThread::~WorkerThread]: 101 messages handled
-[Notice] in [WorkerThread::~WorkerThread]: 106 messages handled
-[Notice] in [WorkerThread::~WorkerThread]: 94 messages handled
-[Notice] in [WorkerThread::~WorkerThread]: 102 messages handled
-[Notice] in [WorkerThread::~WorkerThread]: 104 messages handled
-[Notice] in [WorkerThread::~WorkerThread]: 83 messages handled
-[Notice] in [WorkerThread::~WorkerThread]: 99 messages handled
-[Notice] in [WorkerThread::~WorkerThread]: 119 messages handled
-[Notice] in [WorkerThread::~WorkerThread]: 100 messages handled
-[Notice] in [WorkerThread::~WorkerThread]: 104 messages handled
-[Notice] in [WorkerThread::~WorkerThread]: 101 messages handled
-[Notice] in [WorkerThread::~WorkerThread]: 90 messages handled
-[Notice] in [WorkerThread::~WorkerThread]: 101 messages handled
-[Notice] in [WorkerThread::~WorkerThread]: 102 messages handled
-[Notice] in [WorkerThread::~WorkerThread]: 99 messages handled
-[Notice] in [WorkerThread::~WorkerThread]: 104 messages handled
+[Notice] in [WorkerThread::~WorkerThread]: 4162 messages handled
+[Notice] in [WorkerThread::~WorkerThread]: 4164 messages handled
+[Notice] in [WorkerThread::~WorkerThread]: 4179 messages handled
+[Notice] in [WorkerThread::~WorkerThread]: 4173 messages handled
+[Notice] in [WorkerThread::~WorkerThread]: 4130 messages handled
+[Notice] in [WorkerThread::~WorkerThread]: 4145 messages handled
+[Notice] in [WorkerThread::~WorkerThread]: 4174 messages handled
+[Notice] in [WorkerThread::~WorkerThread]: 4148 messages handled
+[Notice] in [WorkerThread::~WorkerThread]: 4170 messages handled
+[Notice] in [WorkerThread::~WorkerThread]: 4156 messages handled
+[Notice] in [WorkerThread::~WorkerThread]: 4128 messages handled
+[Notice] in [WorkerThread::~WorkerThread]: 4130 messages handled
+[Notice] in [WorkerThread::~WorkerThread]: 4155 messages handled
+[Notice] in [WorkerThread::~WorkerThread]: 4209 messages handled
+[Notice] in [WorkerThread::~WorkerThread]: 4130 messages handled
+[Notice] in [WorkerThread::~WorkerThread]: 4188 messages handled
+[Notice] in [WorkerThread::~WorkerThread]: 4171 messages handled
+[Notice] in [WorkerThread::~WorkerThread]: 4163 messages handled
+[Notice] in [WorkerThread::~WorkerThread]: 4120 messages handled
+[Notice] in [WorkerThread::~WorkerThread]: 4153 messages handled
 [Notice] in [blunted::Exit]: destroying taskmanager
 [Notice] in [blunted::Exit]: destroying scenemanager
 [Notice] in [blunted::Exit]: exiting usereventmanager
