@@ -1,0 +1,92 @@
+[Notice] in [WorkerThread::operator()()]: Starting worker thread
+[Notice] in [WorkerThread::operator()()]: Starting worker thread
+[Notice] in [WorkerThread::operator()()]: Starting worker thread
+[Notice] in [WorkerThread::operator()()]: Starting worker thread
+[Notice] in [WorkerThread::operator()()]: Starting worker thread
+[Notice] in [WorkerThread::operator()()]: Starting worker thread
+[Notice] in [WorkerThread::operator()()]: Starting worker thread
+[Notice] in [WorkerThread::operator()()]: Starting worker thread
+[Notice] in [WorkerThread::operator()()]: Starting worker thread
+[Notice] in [WorkerThread::operator()()]: Starting worker thread
+[Notice] in [WorkerThread::operator()()]: Starting worker thread
+[Notice] in [WorkerThread::operator()()]: Starting worker thread
+[Notice] in [WorkerThread::operator()()]: Starting worker thread
+[Notice] in [WorkerThread::operator()()]: Starting worker thread
+[Notice] in [WorkerThread::operator()()]: Starting worker thread
+[Notice] in [WorkerThread::operator()()]: Starting worker thread
+[Notice] in [WorkerThread::operator()()]: Starting worker thread
+[Notice] in [WorkerThread::operator()()]: Starting worker thread
+[Notice] in [WorkerThread::operator()()]: Starting worker thread
+[Notice] in [WorkerThread::operator()()]: Starting worker thread
+[Notice] in [SystemManager::RegisterSystem]: Added system named 'GraphicsSystem'
+[Notice] in [SystemManager::RegisterSystem]: Added system named 'AudioSystem'
+[Notice] in [OpenGLRenderer3D::operator()()]: Starting OpenGLRenderer3D thread
+[Notice] in [OpenGLRenderer3D::CreateContext]: Using OpenGL version 4.5 (Compatibility Profile) Mesa 25.2.8-0ubuntu0.24.04.1
+[Notice] in [OpenGLRenderer3D::CreateContext]: OpenGL major/minor 4.5
+[Notice] in [GraphicsSystem::Initialize]: Created context, resolution 1280 * 720 @ 32 bpp
+[Notice] in [NullAudioRenderer::operator()()]: Starting NullAudioRenderer thread
+[Notice] in [GraphicsTask::operator()()]: Starting GraphicsSystemTask thread
+[Notice] in [AudioSystem::Initialize]: Created context
+[Notice] in [MenuScene::MenuScene]: Starting MenuScene
+[Notice] in [MenuScene::MenuScene]: Creating camera object
+[Notice] in [OpenGLRenderer3D::CreateView]: Creating new view, id 0
+[Notice] in [OpenGLRenderer3D::CheckFrameBufferStatus]: Framebuffer state #36053
+[Notice] in [OpenGLRenderer3D::CheckFrameBufferStatus]: Framebuffer state #36053
+[Notice] in [MenuScene::MenuScene]: Creating light object
+[Notice] in [MenuScene::MenuScene]: Creating geometry
+[Notice] in [OpenGLRenderer3D::DeleteView]: Deleting view, id 0
+[Notice] in [blunted::Exit]: exiting scenemanager
+[Notice] in [blunted::Exit]: exiting resourcemanagerpool
+[Notice] in [blunted::Exit]: deleting resourcemanagerpool
+[Notice] in [blunted::Exit]: exiting systemmanager
+[Notice] in [SystemManager::Exit]: Deleting system named 'AudioSystem'
+[Notice] in [NullAudioRenderer::operator()()]: Shutting down NullAudioRenderer thread
+[Notice] in [SystemManager::Exit]: Deleting system named 'GraphicsSystem'
+[Notice] in [GraphicsTask::operator()()]: Shutting down GraphicsSystemTask thread
+[Notice] in [OpenGLRenderer3D::operator()()]: Shutting down OpenGLRenderer3D thread
+[Notice] in [blunted::Exit]: destroying systemmanager
+[Notice] in [blunted::Exit]: exiting taskmanager
+[Notice] in [WorkerThread::operator()()]: Exiting worker thread
+[Notice] in [WorkerThread::operator()()]: Exiting worker thread
+[Notice] in [WorkerThread::operator()()]: Exiting worker thread
+[Notice] in [WorkerThread::operator()()]: Exiting worker thread
+[Notice] in [WorkerThread::operator()()]: Exiting worker thread
+[Notice] in [WorkerThread::operator()()]: Exiting worker thread
+[Notice] in [WorkerThread::operator()()]: Exiting worker thread
+[Notice] in [WorkerThread::operator()()]: Exiting worker thread
+[Notice] in [WorkerThread::operator()()]: Exiting worker thread
+[Notice] in [WorkerThread::operator()()]: Exiting worker thread
+[Notice] in [WorkerThread::operator()()]: Exiting worker thread
+[Notice] in [WorkerThread::operator()()]: Exiting worker thread
+[Notice] in [WorkerThread::operator()()]: Exiting worker thread
+[Notice] in [WorkerThread::operator()()]: Exiting worker thread
+[Notice] in [WorkerThread::operator()()]: Exiting worker thread
+[Notice] in [WorkerThread::operator()()]: Exiting worker thread
+[Notice] in [WorkerThread::operator()()]: Exiting worker thread
+[Notice] in [WorkerThread::operator()()]: Exiting worker thread
+[Notice] in [WorkerThread::operator()()]: Exiting worker thread
+[Notice] in [WorkerThread::operator()()]: Exiting worker thread
+[Notice] in [WorkerThread::~WorkerThread]: 315 messages handled
+[Notice] in [WorkerThread::~WorkerThread]: 289 messages handled
+[Notice] in [WorkerThread::~WorkerThread]: 297 messages handled
+[Notice] in [WorkerThread::~WorkerThread]: 299 messages handled
+[Notice] in [WorkerThread::~WorkerThread]: 295 messages handled
+[Notice] in [WorkerThread::~WorkerThread]: 310 messages handled
+[Notice] in [WorkerThread::~WorkerThread]: 304 messages handled
+[Notice] in [WorkerThread::~WorkerThread]: 300 messages handled
+[Notice] in [WorkerThread::~WorkerThread]: 294 messages handled
+[Notice] in [WorkerThread::~WorkerThread]: 293 messages handled
+[Notice] in [WorkerThread::~WorkerThread]: 300 messages handled
+[Notice] in [WorkerThread::~WorkerThread]: 301 messages handled
+[Notice] in [WorkerThread::~WorkerThread]: 298 messages handled
+[Notice] in [WorkerThread::~WorkerThread]: 297 messages handled
+[Notice] in [WorkerThread::~WorkerThread]: 287 messages handled
+[Notice] in [WorkerThread::~WorkerThread]: 305 messages handled
+[Notice] in [WorkerThread::~WorkerThread]: 297 messages handled
+[Notice] in [WorkerThread::~WorkerThread]: 295 messages handled
+[Notice] in [WorkerThread::~WorkerThread]: 299 messages handled
+[Notice] in [WorkerThread::~WorkerThread]: 305 messages handled
+[Notice] in [blunted::Exit]: destroying taskmanager
+[Notice] in [blunted::Exit]: destroying scenemanager
+[Notice] in [blunted::Exit]: exiting usereventmanager
+[Notice] in [blunted::Exit]: destroying usereventmanager
