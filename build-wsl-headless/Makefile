@@ -601,6 +601,19 @@ gameplayfootball_integration_tests/fast:
 .PHONY : gameplayfootball_integration_tests/fast
 
 #=============================================================================
+# Target rules for targets named gameplayfootball_league_integration_tests
+
+# Build rule for target.
+gameplayfootball_league_integration_tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gameplayfootball_league_integration_tests
+.PHONY : gameplayfootball_league_integration_tests
+
+# fast build rule for target.
+gameplayfootball_league_integration_tests/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/gameplayfootball_league_integration_tests.dir/build.make tests/CMakeFiles/gameplayfootball_league_integration_tests.dir/build
+.PHONY : gameplayfootball_league_integration_tests/fast
+
+#=============================================================================
 # Target rules for targets named gameplayfootball_career_tests
 
 # Build rule for target.
@@ -876,6 +889,7 @@ help:
 	@echo "... NightlyUpdate"
 	@echo "... gameplayfootball_career_tests"
 	@echo "... gameplayfootball_integration_tests"
+	@echo "... gameplayfootball_league_integration_tests"
 	@echo "... gameplayfootball_math_tests"
 	@echo "... gameplayfootball_velocity_tests"
 	@echo "... gf_ballphysicslib"

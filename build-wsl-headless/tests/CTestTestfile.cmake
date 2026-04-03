@@ -7,5 +7,6 @@
 include("/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_math_tests[1]_include.cmake")
 include("/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_velocity_tests[1]_include.cmake")
 include("/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_integration_tests[1]_include.cmake")
+include("/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_league_integration_tests[1]_include.cmake")
 include("/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_career_tests[1]_include.cmake")
 subdirs("../_deps/googletest-build")

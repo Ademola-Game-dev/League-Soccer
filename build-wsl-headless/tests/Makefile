@@ -214,6 +214,20 @@ gameplayfootball_integration_tests/fast:
 .PHONY : gameplayfootball_integration_tests/fast
 
 # Convenience name for target.
+tests/CMakeFiles/gameplayfootball_league_integration_tests.dir/rule:
+	cd /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/gameplayfootball_league_integration_tests.dir/rule
+.PHONY : tests/CMakeFiles/gameplayfootball_league_integration_tests.dir/rule
+
+# Convenience name for target.
+gameplayfootball_league_integration_tests: tests/CMakeFiles/gameplayfootball_league_integration_tests.dir/rule
+.PHONY : gameplayfootball_league_integration_tests
+
+# fast build rule for target.
+gameplayfootball_league_integration_tests/fast:
+	cd /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/gameplayfootball_league_integration_tests.dir/build.make tests/CMakeFiles/gameplayfootball_league_integration_tests.dir/build
+.PHONY : gameplayfootball_league_integration_tests/fast
+
+# Convenience name for target.
 tests/CMakeFiles/gameplayfootball_career_tests.dir/rule:
 	cd /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/gameplayfootball_career_tests.dir/rule
 .PHONY : tests/CMakeFiles/gameplayfootball_career_tests.dir/rule
@@ -226,6 +240,54 @@ gameplayfootball_career_tests: tests/CMakeFiles/gameplayfootball_career_tests.di
 gameplayfootball_career_tests/fast:
 	cd /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/gameplayfootball_career_tests.dir/build.make tests/CMakeFiles/gameplayfootball_career_tests.dir/build
 .PHONY : gameplayfootball_career_tests/fast
+
+__/src/base/properties.o: __/src/base/properties.cpp.o
+.PHONY : __/src/base/properties.o
+
+# target to build an object file
+__/src/base/properties.cpp.o:
+	cd /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/gameplayfootball_league_integration_tests.dir/build.make tests/CMakeFiles/gameplayfootball_league_integration_tests.dir/__/src/base/properties.cpp.o
+.PHONY : __/src/base/properties.cpp.o
+
+__/src/base/properties.i: __/src/base/properties.cpp.i
+.PHONY : __/src/base/properties.i
+
+# target to preprocess a source file
+__/src/base/properties.cpp.i:
+	cd /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/gameplayfootball_league_integration_tests.dir/build.make tests/CMakeFiles/gameplayfootball_league_integration_tests.dir/__/src/base/properties.cpp.i
+.PHONY : __/src/base/properties.cpp.i
+
+__/src/base/properties.s: __/src/base/properties.cpp.s
+.PHONY : __/src/base/properties.s
+
+# target to generate assembly for a file
+__/src/base/properties.cpp.s:
+	cd /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/gameplayfootball_league_integration_tests.dir/build.make tests/CMakeFiles/gameplayfootball_league_integration_tests.dir/__/src/base/properties.cpp.s
+.PHONY : __/src/base/properties.cpp.s
+
+__/src/base/utils.o: __/src/base/utils.cpp.o
+.PHONY : __/src/base/utils.o
+
+# target to build an object file
+__/src/base/utils.cpp.o:
+	cd /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/gameplayfootball_league_integration_tests.dir/build.make tests/CMakeFiles/gameplayfootball_league_integration_tests.dir/__/src/base/utils.cpp.o
+.PHONY : __/src/base/utils.cpp.o
+
+__/src/base/utils.i: __/src/base/utils.cpp.i
+.PHONY : __/src/base/utils.i
+
+# target to preprocess a source file
+__/src/base/utils.cpp.i:
+	cd /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/gameplayfootball_league_integration_tests.dir/build.make tests/CMakeFiles/gameplayfootball_league_integration_tests.dir/__/src/base/utils.cpp.i
+.PHONY : __/src/base/utils.cpp.i
+
+__/src/base/utils.s: __/src/base/utils.cpp.s
+.PHONY : __/src/base/utils.s
+
+# target to generate assembly for a file
+__/src/base/utils.cpp.s:
+	cd /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/gameplayfootball_league_integration_tests.dir/build.make tests/CMakeFiles/gameplayfootball_league_integration_tests.dir/__/src/base/utils.cpp.s
+.PHONY : __/src/base/utils.cpp.s
 
 __/src/data/careerdata.o: __/src/data/careerdata.cpp.o
 .PHONY : __/src/data/careerdata.o
@@ -299,6 +361,78 @@ __/src/data/scoutingdata.cpp.s:
 	cd /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/gameplayfootball_career_tests.dir/build.make tests/CMakeFiles/gameplayfootball_career_tests.dir/__/src/data/scoutingdata.cpp.s
 .PHONY : __/src/data/scoutingdata.cpp.s
 
+__/src/league/leaguecode.o: __/src/league/leaguecode.cpp.o
+.PHONY : __/src/league/leaguecode.o
+
+# target to build an object file
+__/src/league/leaguecode.cpp.o:
+	cd /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/gameplayfootball_league_integration_tests.dir/build.make tests/CMakeFiles/gameplayfootball_league_integration_tests.dir/__/src/league/leaguecode.cpp.o
+.PHONY : __/src/league/leaguecode.cpp.o
+
+__/src/league/leaguecode.i: __/src/league/leaguecode.cpp.i
+.PHONY : __/src/league/leaguecode.i
+
+# target to preprocess a source file
+__/src/league/leaguecode.cpp.i:
+	cd /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/gameplayfootball_league_integration_tests.dir/build.make tests/CMakeFiles/gameplayfootball_league_integration_tests.dir/__/src/league/leaguecode.cpp.i
+.PHONY : __/src/league/leaguecode.cpp.i
+
+__/src/league/leaguecode.s: __/src/league/leaguecode.cpp.s
+.PHONY : __/src/league/leaguecode.s
+
+# target to generate assembly for a file
+__/src/league/leaguecode.cpp.s:
+	cd /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/gameplayfootball_league_integration_tests.dir/build.make tests/CMakeFiles/gameplayfootball_league_integration_tests.dir/__/src/league/leaguecode.cpp.s
+.PHONY : __/src/league/leaguecode.cpp.s
+
+__/src/utils/database.o: __/src/utils/database.cpp.o
+.PHONY : __/src/utils/database.o
+
+# target to build an object file
+__/src/utils/database.cpp.o:
+	cd /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/gameplayfootball_league_integration_tests.dir/build.make tests/CMakeFiles/gameplayfootball_league_integration_tests.dir/__/src/utils/database.cpp.o
+.PHONY : __/src/utils/database.cpp.o
+
+__/src/utils/database.i: __/src/utils/database.cpp.i
+.PHONY : __/src/utils/database.i
+
+# target to preprocess a source file
+__/src/utils/database.cpp.i:
+	cd /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/gameplayfootball_league_integration_tests.dir/build.make tests/CMakeFiles/gameplayfootball_league_integration_tests.dir/__/src/utils/database.cpp.i
+.PHONY : __/src/utils/database.cpp.i
+
+__/src/utils/database.s: __/src/utils/database.cpp.s
+.PHONY : __/src/utils/database.s
+
+# target to generate assembly for a file
+__/src/utils/database.cpp.s:
+	cd /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/gameplayfootball_league_integration_tests.dir/build.make tests/CMakeFiles/gameplayfootball_league_integration_tests.dir/__/src/utils/database.cpp.s
+.PHONY : __/src/utils/database.cpp.s
+
+__/src/utils/xmlloader.o: __/src/utils/xmlloader.cpp.o
+.PHONY : __/src/utils/xmlloader.o
+
+# target to build an object file
+__/src/utils/xmlloader.cpp.o:
+	cd /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/gameplayfootball_league_integration_tests.dir/build.make tests/CMakeFiles/gameplayfootball_league_integration_tests.dir/__/src/utils/xmlloader.cpp.o
+.PHONY : __/src/utils/xmlloader.cpp.o
+
+__/src/utils/xmlloader.i: __/src/utils/xmlloader.cpp.i
+.PHONY : __/src/utils/xmlloader.i
+
+# target to preprocess a source file
+__/src/utils/xmlloader.cpp.i:
+	cd /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/gameplayfootball_league_integration_tests.dir/build.make tests/CMakeFiles/gameplayfootball_league_integration_tests.dir/__/src/utils/xmlloader.cpp.i
+.PHONY : __/src/utils/xmlloader.cpp.i
+
+__/src/utils/xmlloader.s: __/src/utils/xmlloader.cpp.s
+.PHONY : __/src/utils/xmlloader.s
+
+# target to generate assembly for a file
+__/src/utils/xmlloader.cpp.s:
+	cd /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/gameplayfootball_league_integration_tests.dir/build.make tests/CMakeFiles/gameplayfootball_league_integration_tests.dir/__/src/utils/xmlloader.cpp.s
+.PHONY : __/src/utils/xmlloader.cpp.s
+
 base/math_test.o: base/math_test.cpp.o
 .PHONY : base/math_test.o
 
@@ -346,6 +480,30 @@ career/careerdata_test.s: career/careerdata_test.cpp.s
 career/careerdata_test.cpp.s:
 	cd /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/gameplayfootball_career_tests.dir/build.make tests/CMakeFiles/gameplayfootball_career_tests.dir/career/careerdata_test.cpp.s
 .PHONY : career/careerdata_test.cpp.s
+
+integration/league_bootstrap_test.o: integration/league_bootstrap_test.cpp.o
+.PHONY : integration/league_bootstrap_test.o
+
+# target to build an object file
+integration/league_bootstrap_test.cpp.o:
+	cd /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/gameplayfootball_league_integration_tests.dir/build.make tests/CMakeFiles/gameplayfootball_league_integration_tests.dir/integration/league_bootstrap_test.cpp.o
+.PHONY : integration/league_bootstrap_test.cpp.o
+
+integration/league_bootstrap_test.i: integration/league_bootstrap_test.cpp.i
+.PHONY : integration/league_bootstrap_test.i
+
+# target to preprocess a source file
+integration/league_bootstrap_test.cpp.i:
+	cd /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/gameplayfootball_league_integration_tests.dir/build.make tests/CMakeFiles/gameplayfootball_league_integration_tests.dir/integration/league_bootstrap_test.cpp.i
+.PHONY : integration/league_bootstrap_test.cpp.i
+
+integration/league_bootstrap_test.s: integration/league_bootstrap_test.cpp.s
+.PHONY : integration/league_bootstrap_test.s
+
+# target to generate assembly for a file
+integration/league_bootstrap_test.cpp.s:
+	cd /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/gameplayfootball_league_integration_tests.dir/build.make tests/CMakeFiles/gameplayfootball_league_integration_tests.dir/integration/league_bootstrap_test.cpp.s
+.PHONY : integration/league_bootstrap_test.cpp.s
 
 integration/match_simulation_test.o: integration/match_simulation_test.cpp.o
 .PHONY : integration/match_simulation_test.o
@@ -434,8 +592,15 @@ help:
 	@echo "... test"
 	@echo "... gameplayfootball_career_tests"
 	@echo "... gameplayfootball_integration_tests"
+	@echo "... gameplayfootball_league_integration_tests"
 	@echo "... gameplayfootball_math_tests"
 	@echo "... gameplayfootball_velocity_tests"
+	@echo "... __/src/base/properties.o"
+	@echo "... __/src/base/properties.i"
+	@echo "... __/src/base/properties.s"
+	@echo "... __/src/base/utils.o"
+	@echo "... __/src/base/utils.i"
+	@echo "... __/src/base/utils.s"
 	@echo "... __/src/data/careerdata.o"
 	@echo "... __/src/data/careerdata.i"
 	@echo "... __/src/data/careerdata.s"
@@ -445,12 +610,24 @@ help:
 	@echo "... __/src/data/scoutingdata.o"
 	@echo "... __/src/data/scoutingdata.i"
 	@echo "... __/src/data/scoutingdata.s"
+	@echo "... __/src/league/leaguecode.o"
+	@echo "... __/src/league/leaguecode.i"
+	@echo "... __/src/league/leaguecode.s"
+	@echo "... __/src/utils/database.o"
+	@echo "... __/src/utils/database.i"
+	@echo "... __/src/utils/database.s"
+	@echo "... __/src/utils/xmlloader.o"
+	@echo "... __/src/utils/xmlloader.i"
+	@echo "... __/src/utils/xmlloader.s"
 	@echo "... base/math_test.o"
 	@echo "... base/math_test.i"
 	@echo "... base/math_test.s"
 	@echo "... career/careerdata_test.o"
 	@echo "... career/careerdata_test.i"
 	@echo "... career/careerdata_test.s"
+	@echo "... integration/league_bootstrap_test.o"
+	@echo "... integration/league_bootstrap_test.i"
+	@echo "... integration/league_bootstrap_test.s"
 	@echo "... integration/match_simulation_test.o"
 	@echo "... integration/match_simulation_test.i"
 	@echo "... integration/match_simulation_test.s"

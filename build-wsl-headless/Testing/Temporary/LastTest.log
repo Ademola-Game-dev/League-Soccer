@@ -1,10 +1,10 @@
-Start testing: Apr 02 19:55 EDT
+Start testing: Apr 02 20:15 EDT
 ----------------------------------------------------------
-1/59 Testing: BluntMathTest.ClampAndNormalizeRange
-1/59 Test: BluntMathTest.ClampAndNormalizeRange
+1/63 Testing: BluntMathTest.ClampAndNormalizeRange
+1/63 Test: BluntMathTest.ClampAndNormalizeRange
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_math_tests" "--gtest_filter=BluntMathTest.ClampAndNormalizeRange" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"BluntMathTest.ClampAndNormalizeRange" start time: Apr 02 19:55 EDT
+"BluntMathTest.ClampAndNormalizeRange" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -23,15 +23,15 @@ Note: Google Test filter = BluntMathTest.ClampAndNormalizeRange
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"BluntMathTest.ClampAndNormalizeRange" end time: Apr 02 19:55 EDT
+"BluntMathTest.ClampAndNormalizeRange" end time: Apr 02 20:15 EDT
 "BluntMathTest.ClampAndNormalizeRange" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-2/59 Testing: BluntMathTest.ModulatesValuesAndComputesParityHelpers
-2/59 Test: BluntMathTest.ModulatesValuesAndComputesParityHelpers
+2/63 Testing: BluntMathTest.ModulatesValuesAndComputesParityHelpers
+2/63 Test: BluntMathTest.ModulatesValuesAndComputesParityHelpers
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_math_tests" "--gtest_filter=BluntMathTest.ModulatesValuesAndComputesParityHelpers" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"BluntMathTest.ModulatesValuesAndComputesParityHelpers" start time: Apr 02 19:55 EDT
+"BluntMathTest.ModulatesValuesAndComputesParityHelpers" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -47,18 +47,18 @@ Note: Google Test filter = BluntMathTest.ModulatesValuesAndComputesParityHelpers
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"BluntMathTest.ModulatesValuesAndComputesParityHelpers" end time: Apr 02 19:55 EDT
+"BluntMathTest.ModulatesValuesAndComputesParityHelpers" end time: Apr 02 20:15 EDT
 "BluntMathTest.ModulatesValuesAndComputesParityHelpers" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-3/59 Testing: Vector3Test.ComputesCrossDotAndDistance
-3/59 Test: Vector3Test.ComputesCrossDotAndDistance
+3/63 Testing: Vector3Test.ComputesCrossDotAndDistance
+3/63 Test: Vector3Test.ComputesCrossDotAndDistance
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_math_tests" "--gtest_filter=Vector3Test.ComputesCrossDotAndDistance" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"Vector3Test.ComputesCrossDotAndDistance" start time: Apr 02 19:55 EDT
+"Vector3Test.ComputesCrossDotAndDistance" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -77,15 +77,15 @@ Note: Google Test filter = Vector3Test.ComputesCrossDotAndDistance
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"Vector3Test.ComputesCrossDotAndDistance" end time: Apr 02 19:55 EDT
+"Vector3Test.ComputesCrossDotAndDistance" end time: Apr 02 20:15 EDT
 "Vector3Test.ComputesCrossDotAndDistance" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-4/59 Testing: Vector3Test.NormalizesAndFallsBackFromZeroVector
-4/59 Test: Vector3Test.NormalizesAndFallsBackFromZeroVector
+4/63 Testing: Vector3Test.NormalizesAndFallsBackFromZeroVector
+4/63 Test: Vector3Test.NormalizesAndFallsBackFromZeroVector
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_math_tests" "--gtest_filter=Vector3Test.NormalizesAndFallsBackFromZeroVector" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"Vector3Test.NormalizesAndFallsBackFromZeroVector" start time: Apr 02 19:55 EDT
+"Vector3Test.NormalizesAndFallsBackFromZeroVector" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -101,18 +101,18 @@ Note: Google Test filter = Vector3Test.NormalizesAndFallsBackFromZeroVector
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Vector3Test.NormalizesAndFallsBackFromZeroVector" end time: Apr 02 19:55 EDT
+"Vector3Test.NormalizesAndFallsBackFromZeroVector" end time: Apr 02 20:15 EDT
 "Vector3Test.NormalizesAndFallsBackFromZeroVector" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-5/59 Testing: Vector3Test.RotatesInTwoDimensionsWithoutChangingHeight
-5/59 Test: Vector3Test.RotatesInTwoDimensionsWithoutChangingHeight
+5/63 Testing: Vector3Test.RotatesInTwoDimensionsWithoutChangingHeight
+5/63 Test: Vector3Test.RotatesInTwoDimensionsWithoutChangingHeight
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_math_tests" "--gtest_filter=Vector3Test.RotatesInTwoDimensionsWithoutChangingHeight" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"Vector3Test.RotatesInTwoDimensionsWithoutChangingHeight" start time: Apr 02 19:55 EDT
+"Vector3Test.RotatesInTwoDimensionsWithoutChangingHeight" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -131,15 +131,15 @@ Note: Google Test filter = Vector3Test.RotatesInTwoDimensionsWithoutChangingHeig
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"Vector3Test.RotatesInTwoDimensionsWithoutChangingHeight" end time: Apr 02 19:55 EDT
+"Vector3Test.RotatesInTwoDimensionsWithoutChangingHeight" end time: Apr 02 20:15 EDT
 "Vector3Test.RotatesInTwoDimensionsWithoutChangingHeight" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-6/59 Testing: Matrix3Test.IdentityAndTransposeBehaveAsExpected
-6/59 Test: Matrix3Test.IdentityAndTransposeBehaveAsExpected
+6/63 Testing: Matrix3Test.IdentityAndTransposeBehaveAsExpected
+6/63 Test: Matrix3Test.IdentityAndTransposeBehaveAsExpected
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_math_tests" "--gtest_filter=Matrix3Test.IdentityAndTransposeBehaveAsExpected" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"Matrix3Test.IdentityAndTransposeBehaveAsExpected" start time: Apr 02 19:55 EDT
+"Matrix3Test.IdentityAndTransposeBehaveAsExpected" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -155,18 +155,18 @@ Note: Google Test filter = Matrix3Test.IdentityAndTransposeBehaveAsExpected
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Matrix3Test.IdentityAndTransposeBehaveAsExpected" end time: Apr 02 19:55 EDT
+"Matrix3Test.IdentityAndTransposeBehaveAsExpected" end time: Apr 02 20:15 EDT
 "Matrix3Test.IdentityAndTransposeBehaveAsExpected" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-7/59 Testing: Matrix3Test.MultipliesMatricesAndVectors
-7/59 Test: Matrix3Test.MultipliesMatricesAndVectors
+7/63 Testing: Matrix3Test.MultipliesMatricesAndVectors
+7/63 Test: Matrix3Test.MultipliesMatricesAndVectors
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_math_tests" "--gtest_filter=Matrix3Test.MultipliesMatricesAndVectors" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"Matrix3Test.MultipliesMatricesAndVectors" start time: Apr 02 19:55 EDT
+"Matrix3Test.MultipliesMatricesAndVectors" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -185,15 +185,15 @@ Note: Google Test filter = Matrix3Test.MultipliesMatricesAndVectors
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"Matrix3Test.MultipliesMatricesAndVectors" end time: Apr 02 19:55 EDT
+"Matrix3Test.MultipliesMatricesAndVectors" end time: Apr 02 20:15 EDT
 "Matrix3Test.MultipliesMatricesAndVectors" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-8/59 Testing: QuaternionTest.AngleAxisRotationRotatesVectors
-8/59 Test: QuaternionTest.AngleAxisRotationRotatesVectors
+8/63 Testing: QuaternionTest.AngleAxisRotationRotatesVectors
+8/63 Test: QuaternionTest.AngleAxisRotationRotatesVectors
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_math_tests" "--gtest_filter=QuaternionTest.AngleAxisRotationRotatesVectors" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"QuaternionTest.AngleAxisRotationRotatesVectors" start time: Apr 02 19:55 EDT
+"QuaternionTest.AngleAxisRotationRotatesVectors" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -209,18 +209,18 @@ Note: Google Test filter = QuaternionTest.AngleAxisRotationRotatesVectors
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"QuaternionTest.AngleAxisRotationRotatesVectors" end time: Apr 02 19:55 EDT
+"QuaternionTest.AngleAxisRotationRotatesVectors" end time: Apr 02 20:15 EDT
 "QuaternionTest.AngleAxisRotationRotatesVectors" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-9/59 Testing: QuaternionTest.InverseAndMatrixRoundTripPreserveOrientation
-9/59 Test: QuaternionTest.InverseAndMatrixRoundTripPreserveOrientation
+9/63 Testing: QuaternionTest.InverseAndMatrixRoundTripPreserveOrientation
+9/63 Test: QuaternionTest.InverseAndMatrixRoundTripPreserveOrientation
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_math_tests" "--gtest_filter=QuaternionTest.InverseAndMatrixRoundTripPreserveOrientation" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"QuaternionTest.InverseAndMatrixRoundTripPreserveOrientation" start time: Apr 02 19:55 EDT
+"QuaternionTest.InverseAndMatrixRoundTripPreserveOrientation" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -236,18 +236,18 @@ Note: Google Test filter = QuaternionTest.InverseAndMatrixRoundTripPreserveOrien
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"QuaternionTest.InverseAndMatrixRoundTripPreserveOrientation" end time: Apr 02 19:55 EDT
+"QuaternionTest.InverseAndMatrixRoundTripPreserveOrientation" end time: Apr 02 20:15 EDT
 "QuaternionTest.InverseAndMatrixRoundTripPreserveOrientation" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-10/59 Testing: BallPhysicsTest.GravityActsBeforeDrag
-10/59 Test: BallPhysicsTest.GravityActsBeforeDrag
+10/63 Testing: BallPhysicsTest.GravityActsBeforeDrag
+10/63 Test: BallPhysicsTest.GravityActsBeforeDrag
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_math_tests" "--gtest_filter=BallPhysicsTest.GravityActsBeforeDrag" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"BallPhysicsTest.GravityActsBeforeDrag" start time: Apr 02 19:55 EDT
+"BallPhysicsTest.GravityActsBeforeDrag" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -263,18 +263,18 @@ Note: Google Test filter = BallPhysicsTest.GravityActsBeforeDrag
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"BallPhysicsTest.GravityActsBeforeDrag" end time: Apr 02 19:55 EDT
+"BallPhysicsTest.GravityActsBeforeDrag" end time: Apr 02 20:15 EDT
 "BallPhysicsTest.GravityActsBeforeDrag" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-11/59 Testing: BallPhysicsTest.DragReducesAirborneSpeed
-11/59 Test: BallPhysicsTest.DragReducesAirborneSpeed
+11/63 Testing: BallPhysicsTest.DragReducesAirborneSpeed
+11/63 Test: BallPhysicsTest.DragReducesAirborneSpeed
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_math_tests" "--gtest_filter=BallPhysicsTest.DragReducesAirborneSpeed" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"BallPhysicsTest.DragReducesAirborneSpeed" start time: Apr 02 19:55 EDT
+"BallPhysicsTest.DragReducesAirborneSpeed" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -290,18 +290,18 @@ Note: Google Test filter = BallPhysicsTest.DragReducesAirborneSpeed
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"BallPhysicsTest.DragReducesAirborneSpeed" end time: Apr 02 19:55 EDT
+"BallPhysicsTest.DragReducesAirborneSpeed" end time: Apr 02 20:15 EDT
 "BallPhysicsTest.DragReducesAirborneSpeed" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-12/59 Testing: BallPhysicsTest.BounceClampsBallToGroundAndReturnsImpactStrength
-12/59 Test: BallPhysicsTest.BounceClampsBallToGroundAndReturnsImpactStrength
+12/63 Testing: BallPhysicsTest.BounceClampsBallToGroundAndReturnsImpactStrength
+12/63 Test: BallPhysicsTest.BounceClampsBallToGroundAndReturnsImpactStrength
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_math_tests" "--gtest_filter=BallPhysicsTest.BounceClampsBallToGroundAndReturnsImpactStrength" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"BallPhysicsTest.BounceClampsBallToGroundAndReturnsImpactStrength" start time: Apr 02 19:55 EDT
+"BallPhysicsTest.BounceClampsBallToGroundAndReturnsImpactStrength" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -317,18 +317,18 @@ Note: Google Test filter = BallPhysicsTest.BounceClampsBallToGroundAndReturnsImp
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"BallPhysicsTest.BounceClampsBallToGroundAndReturnsImpactStrength" end time: Apr 02 19:55 EDT
+"BallPhysicsTest.BounceClampsBallToGroundAndReturnsImpactStrength" end time: Apr 02 20:15 EDT
 "BallPhysicsTest.BounceClampsBallToGroundAndReturnsImpactStrength" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-13/59 Testing: BallPhysicsTest.GroundFrictionSlowsRollingBall
-13/59 Test: BallPhysicsTest.GroundFrictionSlowsRollingBall
+13/63 Testing: BallPhysicsTest.GroundFrictionSlowsRollingBall
+13/63 Test: BallPhysicsTest.GroundFrictionSlowsRollingBall
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_math_tests" "--gtest_filter=BallPhysicsTest.GroundFrictionSlowsRollingBall" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"BallPhysicsTest.GroundFrictionSlowsRollingBall" start time: Apr 02 19:55 EDT
+"BallPhysicsTest.GroundFrictionSlowsRollingBall" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -347,15 +347,15 @@ Note: Google Test filter = BallPhysicsTest.GroundFrictionSlowsRollingBall
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"BallPhysicsTest.GroundFrictionSlowsRollingBall" end time: Apr 02 19:55 EDT
+"BallPhysicsTest.GroundFrictionSlowsRollingBall" end time: Apr 02 20:15 EDT
 "BallPhysicsTest.GroundFrictionSlowsRollingBall" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-14/59 Testing: BallPhysicsTest.AirborneBallAvoidsGrassFriction
-14/59 Test: BallPhysicsTest.AirborneBallAvoidsGrassFriction
+14/63 Testing: BallPhysicsTest.AirborneBallAvoidsGrassFriction
+14/63 Test: BallPhysicsTest.AirborneBallAvoidsGrassFriction
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_math_tests" "--gtest_filter=BallPhysicsTest.AirborneBallAvoidsGrassFriction" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"BallPhysicsTest.AirborneBallAvoidsGrassFriction" start time: Apr 02 19:55 EDT
+"BallPhysicsTest.AirborneBallAvoidsGrassFriction" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -374,15 +374,15 @@ Note: Google Test filter = BallPhysicsTest.AirborneBallAvoidsGrassFriction
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"BallPhysicsTest.AirborneBallAvoidsGrassFriction" end time: Apr 02 19:55 EDT
+"BallPhysicsTest.AirborneBallAvoidsGrassFriction" end time: Apr 02 20:15 EDT
 "BallPhysicsTest.AirborneBallAvoidsGrassFriction" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-15/59 Testing: VelocityStateTest.RangeVelocity_IdleBeforeSwitch
-15/59 Test: VelocityStateTest.RangeVelocity_IdleBeforeSwitch
+15/63 Testing: VelocityStateTest.RangeVelocity_IdleBeforeSwitch
+15/63 Test: VelocityStateTest.RangeVelocity_IdleBeforeSwitch
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_velocity_tests" "--gtest_filter=VelocityStateTest.RangeVelocity_IdleBeforeSwitch" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"VelocityStateTest.RangeVelocity_IdleBeforeSwitch" start time: Apr 02 19:55 EDT
+"VelocityStateTest.RangeVelocity_IdleBeforeSwitch" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -398,18 +398,18 @@ Note: Google Test filter = VelocityStateTest.RangeVelocity_IdleBeforeSwitch
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"VelocityStateTest.RangeVelocity_IdleBeforeSwitch" end time: Apr 02 19:55 EDT
+"VelocityStateTest.RangeVelocity_IdleBeforeSwitch" end time: Apr 02 20:15 EDT
 "VelocityStateTest.RangeVelocity_IdleBeforeSwitch" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-16/59 Testing: VelocityStateTest.RangeVelocity_DribbleBand
-16/59 Test: VelocityStateTest.RangeVelocity_DribbleBand
+16/63 Testing: VelocityStateTest.RangeVelocity_DribbleBand
+16/63 Test: VelocityStateTest.RangeVelocity_DribbleBand
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_velocity_tests" "--gtest_filter=VelocityStateTest.RangeVelocity_DribbleBand" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"VelocityStateTest.RangeVelocity_DribbleBand" start time: Apr 02 19:55 EDT
+"VelocityStateTest.RangeVelocity_DribbleBand" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -425,18 +425,18 @@ Note: Google Test filter = VelocityStateTest.RangeVelocity_DribbleBand
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"VelocityStateTest.RangeVelocity_DribbleBand" end time: Apr 02 19:55 EDT
+"VelocityStateTest.RangeVelocity_DribbleBand" end time: Apr 02 20:15 EDT
 "VelocityStateTest.RangeVelocity_DribbleBand" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-17/59 Testing: VelocityStateTest.RangeVelocity_WalkBand
-17/59 Test: VelocityStateTest.RangeVelocity_WalkBand
+17/63 Testing: VelocityStateTest.RangeVelocity_WalkBand
+17/63 Test: VelocityStateTest.RangeVelocity_WalkBand
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_velocity_tests" "--gtest_filter=VelocityStateTest.RangeVelocity_WalkBand" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"VelocityStateTest.RangeVelocity_WalkBand" start time: Apr 02 19:55 EDT
+"VelocityStateTest.RangeVelocity_WalkBand" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -455,15 +455,15 @@ Note: Google Test filter = VelocityStateTest.RangeVelocity_WalkBand
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"VelocityStateTest.RangeVelocity_WalkBand" end time: Apr 02 19:55 EDT
+"VelocityStateTest.RangeVelocity_WalkBand" end time: Apr 02 20:15 EDT
 "VelocityStateTest.RangeVelocity_WalkBand" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-18/59 Testing: VelocityStateTest.RangeVelocity_SprintAboveSwitch
-18/59 Test: VelocityStateTest.RangeVelocity_SprintAboveSwitch
+18/63 Testing: VelocityStateTest.RangeVelocity_SprintAboveSwitch
+18/63 Test: VelocityStateTest.RangeVelocity_SprintAboveSwitch
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_velocity_tests" "--gtest_filter=VelocityStateTest.RangeVelocity_SprintAboveSwitch" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"VelocityStateTest.RangeVelocity_SprintAboveSwitch" start time: Apr 02 19:55 EDT
+"VelocityStateTest.RangeVelocity_SprintAboveSwitch" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -479,18 +479,18 @@ Note: Google Test filter = VelocityStateTest.RangeVelocity_SprintAboveSwitch
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"VelocityStateTest.RangeVelocity_SprintAboveSwitch" end time: Apr 02 19:55 EDT
+"VelocityStateTest.RangeVelocity_SprintAboveSwitch" end time: Apr 02 20:15 EDT
 "VelocityStateTest.RangeVelocity_SprintAboveSwitch" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-19/59 Testing: VelocityStateTest.ClampVelocity_NegativeBecomesZero
-19/59 Test: VelocityStateTest.ClampVelocity_NegativeBecomesZero
+19/63 Testing: VelocityStateTest.ClampVelocity_NegativeBecomesZero
+19/63 Test: VelocityStateTest.ClampVelocity_NegativeBecomesZero
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_velocity_tests" "--gtest_filter=VelocityStateTest.ClampVelocity_NegativeBecomesZero" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"VelocityStateTest.ClampVelocity_NegativeBecomesZero" start time: Apr 02 19:55 EDT
+"VelocityStateTest.ClampVelocity_NegativeBecomesZero" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -509,15 +509,15 @@ Note: Google Test filter = VelocityStateTest.ClampVelocity_NegativeBecomesZero
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"VelocityStateTest.ClampVelocity_NegativeBecomesZero" end time: Apr 02 19:55 EDT
+"VelocityStateTest.ClampVelocity_NegativeBecomesZero" end time: Apr 02 20:15 EDT
 "VelocityStateTest.ClampVelocity_NegativeBecomesZero" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-20/59 Testing: VelocityStateTest.ClampVelocity_InRangeUnchanged
-20/59 Test: VelocityStateTest.ClampVelocity_InRangeUnchanged
+20/63 Testing: VelocityStateTest.ClampVelocity_InRangeUnchanged
+20/63 Test: VelocityStateTest.ClampVelocity_InRangeUnchanged
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_velocity_tests" "--gtest_filter=VelocityStateTest.ClampVelocity_InRangeUnchanged" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"VelocityStateTest.ClampVelocity_InRangeUnchanged" start time: Apr 02 19:55 EDT
+"VelocityStateTest.ClampVelocity_InRangeUnchanged" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -533,18 +533,18 @@ Note: Google Test filter = VelocityStateTest.ClampVelocity_InRangeUnchanged
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"VelocityStateTest.ClampVelocity_InRangeUnchanged" end time: Apr 02 19:55 EDT
+"VelocityStateTest.ClampVelocity_InRangeUnchanged" end time: Apr 02 20:15 EDT
 "VelocityStateTest.ClampVelocity_InRangeUnchanged" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-21/59 Testing: VelocityStateTest.ClampVelocity_AboveMaxClamped
-21/59 Test: VelocityStateTest.ClampVelocity_AboveMaxClamped
+21/63 Testing: VelocityStateTest.ClampVelocity_AboveMaxClamped
+21/63 Test: VelocityStateTest.ClampVelocity_AboveMaxClamped
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_velocity_tests" "--gtest_filter=VelocityStateTest.ClampVelocity_AboveMaxClamped" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"VelocityStateTest.ClampVelocity_AboveMaxClamped" start time: Apr 02 19:55 EDT
+"VelocityStateTest.ClampVelocity_AboveMaxClamped" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -563,15 +563,15 @@ Note: Google Test filter = VelocityStateTest.ClampVelocity_AboveMaxClamped
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"VelocityStateTest.ClampVelocity_AboveMaxClamped" end time: Apr 02 19:55 EDT
+"VelocityStateTest.ClampVelocity_AboveMaxClamped" end time: Apr 02 20:15 EDT
 "VelocityStateTest.ClampVelocity_AboveMaxClamped" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-22/59 Testing: VelocityStateTest.FloorVelocity_ZeroRoundsUpToWalk
-22/59 Test: VelocityStateTest.FloorVelocity_ZeroRoundsUpToWalk
+22/63 Testing: VelocityStateTest.FloorVelocity_ZeroRoundsUpToWalk
+22/63 Test: VelocityStateTest.FloorVelocity_ZeroRoundsUpToWalk
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_velocity_tests" "--gtest_filter=VelocityStateTest.FloorVelocity_ZeroRoundsUpToWalk" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"VelocityStateTest.FloorVelocity_ZeroRoundsUpToWalk" start time: Apr 02 19:55 EDT
+"VelocityStateTest.FloorVelocity_ZeroRoundsUpToWalk" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -587,18 +587,18 @@ Note: Google Test filter = VelocityStateTest.FloorVelocity_ZeroRoundsUpToWalk
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"VelocityStateTest.FloorVelocity_ZeroRoundsUpToWalk" end time: Apr 02 19:55 EDT
+"VelocityStateTest.FloorVelocity_ZeroRoundsUpToWalk" end time: Apr 02 20:15 EDT
 "VelocityStateTest.FloorVelocity_ZeroRoundsUpToWalk" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-23/59 Testing: VelocityStateTest.FloorVelocity_SubDribbleRoundedUp
-23/59 Test: VelocityStateTest.FloorVelocity_SubDribbleRoundedUp
+23/63 Testing: VelocityStateTest.FloorVelocity_SubDribbleRoundedUp
+23/63 Test: VelocityStateTest.FloorVelocity_SubDribbleRoundedUp
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_velocity_tests" "--gtest_filter=VelocityStateTest.FloorVelocity_SubDribbleRoundedUp" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"VelocityStateTest.FloorVelocity_SubDribbleRoundedUp" start time: Apr 02 19:55 EDT
+"VelocityStateTest.FloorVelocity_SubDribbleRoundedUp" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -614,18 +614,18 @@ Note: Google Test filter = VelocityStateTest.FloorVelocity_SubDribbleRoundedUp
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"VelocityStateTest.FloorVelocity_SubDribbleRoundedUp" end time: Apr 02 19:55 EDT
+"VelocityStateTest.FloorVelocity_SubDribbleRoundedUp" end time: Apr 02 20:15 EDT
 "VelocityStateTest.FloorVelocity_SubDribbleRoundedUp" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-24/59 Testing: VelocityStateTest.FloorVelocity_DribbleToWalkRange
-24/59 Test: VelocityStateTest.FloorVelocity_DribbleToWalkRange
+24/63 Testing: VelocityStateTest.FloorVelocity_DribbleToWalkRange
+24/63 Test: VelocityStateTest.FloorVelocity_DribbleToWalkRange
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_velocity_tests" "--gtest_filter=VelocityStateTest.FloorVelocity_DribbleToWalkRange" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"VelocityStateTest.FloorVelocity_DribbleToWalkRange" start time: Apr 02 19:55 EDT
+"VelocityStateTest.FloorVelocity_DribbleToWalkRange" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -641,18 +641,18 @@ Note: Google Test filter = VelocityStateTest.FloorVelocity_DribbleToWalkRange
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"VelocityStateTest.FloorVelocity_DribbleToWalkRange" end time: Apr 02 19:55 EDT
+"VelocityStateTest.FloorVelocity_DribbleToWalkRange" end time: Apr 02 20:15 EDT
 "VelocityStateTest.FloorVelocity_DribbleToWalkRange" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-25/59 Testing: VelocityStateTest.FloorVelocity_AboveWalkIsSprint
-25/59 Test: VelocityStateTest.FloorVelocity_AboveWalkIsSprint
+25/63 Testing: VelocityStateTest.FloorVelocity_AboveWalkIsSprint
+25/63 Test: VelocityStateTest.FloorVelocity_AboveWalkIsSprint
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_velocity_tests" "--gtest_filter=VelocityStateTest.FloorVelocity_AboveWalkIsSprint" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"VelocityStateTest.FloorVelocity_AboveWalkIsSprint" start time: Apr 02 19:55 EDT
+"VelocityStateTest.FloorVelocity_AboveWalkIsSprint" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -668,18 +668,18 @@ Note: Google Test filter = VelocityStateTest.FloorVelocity_AboveWalkIsSprint
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"VelocityStateTest.FloorVelocity_AboveWalkIsSprint" end time: Apr 02 19:55 EDT
+"VelocityStateTest.FloorVelocity_AboveWalkIsSprint" end time: Apr 02 20:15 EDT
 "VelocityStateTest.FloorVelocity_AboveWalkIsSprint" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-26/59 Testing: VelocityStateTest.EnumToFloat_AllValues
-26/59 Test: VelocityStateTest.EnumToFloat_AllValues
+26/63 Testing: VelocityStateTest.EnumToFloat_AllValues
+26/63 Test: VelocityStateTest.EnumToFloat_AllValues
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_velocity_tests" "--gtest_filter=VelocityStateTest.EnumToFloat_AllValues" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"VelocityStateTest.EnumToFloat_AllValues" start time: Apr 02 19:55 EDT
+"VelocityStateTest.EnumToFloat_AllValues" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -695,18 +695,18 @@ Note: Google Test filter = VelocityStateTest.EnumToFloat_AllValues
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"VelocityStateTest.EnumToFloat_AllValues" end time: Apr 02 19:55 EDT
+"VelocityStateTest.EnumToFloat_AllValues" end time: Apr 02 20:15 EDT
 "VelocityStateTest.EnumToFloat_AllValues" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-27/59 Testing: VelocityStateTest.FloatToEnum_IdleBand
-27/59 Test: VelocityStateTest.FloatToEnum_IdleBand
+27/63 Testing: VelocityStateTest.FloatToEnum_IdleBand
+27/63 Test: VelocityStateTest.FloatToEnum_IdleBand
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_velocity_tests" "--gtest_filter=VelocityStateTest.FloatToEnum_IdleBand" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"VelocityStateTest.FloatToEnum_IdleBand" start time: Apr 02 19:55 EDT
+"VelocityStateTest.FloatToEnum_IdleBand" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -722,18 +722,18 @@ Note: Google Test filter = VelocityStateTest.FloatToEnum_IdleBand
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"VelocityStateTest.FloatToEnum_IdleBand" end time: Apr 02 19:55 EDT
+"VelocityStateTest.FloatToEnum_IdleBand" end time: Apr 02 20:15 EDT
 "VelocityStateTest.FloatToEnum_IdleBand" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-28/59 Testing: VelocityStateTest.FloatToEnum_DribbleBand
-28/59 Test: VelocityStateTest.FloatToEnum_DribbleBand
+28/63 Testing: VelocityStateTest.FloatToEnum_DribbleBand
+28/63 Test: VelocityStateTest.FloatToEnum_DribbleBand
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_velocity_tests" "--gtest_filter=VelocityStateTest.FloatToEnum_DribbleBand" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"VelocityStateTest.FloatToEnum_DribbleBand" start time: Apr 02 19:55 EDT
+"VelocityStateTest.FloatToEnum_DribbleBand" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -752,15 +752,15 @@ Note: Google Test filter = VelocityStateTest.FloatToEnum_DribbleBand
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"VelocityStateTest.FloatToEnum_DribbleBand" end time: Apr 02 19:55 EDT
+"VelocityStateTest.FloatToEnum_DribbleBand" end time: Apr 02 20:15 EDT
 "VelocityStateTest.FloatToEnum_DribbleBand" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-29/59 Testing: VelocityStateTest.FloatToEnum_WalkBand
-29/59 Test: VelocityStateTest.FloatToEnum_WalkBand
+29/63 Testing: VelocityStateTest.FloatToEnum_WalkBand
+29/63 Test: VelocityStateTest.FloatToEnum_WalkBand
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_velocity_tests" "--gtest_filter=VelocityStateTest.FloatToEnum_WalkBand" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"VelocityStateTest.FloatToEnum_WalkBand" start time: Apr 02 19:55 EDT
+"VelocityStateTest.FloatToEnum_WalkBand" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -776,18 +776,18 @@ Note: Google Test filter = VelocityStateTest.FloatToEnum_WalkBand
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"VelocityStateTest.FloatToEnum_WalkBand" end time: Apr 02 19:55 EDT
+"VelocityStateTest.FloatToEnum_WalkBand" end time: Apr 02 20:15 EDT
 "VelocityStateTest.FloatToEnum_WalkBand" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-30/59 Testing: VelocityStateTest.FloatToEnum_SprintBand
-30/59 Test: VelocityStateTest.FloatToEnum_SprintBand
+30/63 Testing: VelocityStateTest.FloatToEnum_SprintBand
+30/63 Test: VelocityStateTest.FloatToEnum_SprintBand
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_velocity_tests" "--gtest_filter=VelocityStateTest.FloatToEnum_SprintBand" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"VelocityStateTest.FloatToEnum_SprintBand" start time: Apr 02 19:55 EDT
+"VelocityStateTest.FloatToEnum_SprintBand" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -806,15 +806,15 @@ Note: Google Test filter = VelocityStateTest.FloatToEnum_SprintBand
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"VelocityStateTest.FloatToEnum_SprintBand" end time: Apr 02 19:55 EDT
+"VelocityStateTest.FloatToEnum_SprintBand" end time: Apr 02 20:15 EDT
 "VelocityStateTest.FloatToEnum_SprintBand" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-31/59 Testing: VelocityStateTest.RoundTrip_EnumFloatEnum
-31/59 Test: VelocityStateTest.RoundTrip_EnumFloatEnum
+31/63 Testing: VelocityStateTest.RoundTrip_EnumFloatEnum
+31/63 Test: VelocityStateTest.RoundTrip_EnumFloatEnum
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_velocity_tests" "--gtest_filter=VelocityStateTest.RoundTrip_EnumFloatEnum" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"VelocityStateTest.RoundTrip_EnumFloatEnum" start time: Apr 02 19:55 EDT
+"VelocityStateTest.RoundTrip_EnumFloatEnum" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -830,18 +830,18 @@ Note: Google Test filter = VelocityStateTest.RoundTrip_EnumFloatEnum
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"VelocityStateTest.RoundTrip_EnumFloatEnum" end time: Apr 02 19:55 EDT
+"VelocityStateTest.RoundTrip_EnumFloatEnum" end time: Apr 02 20:15 EDT
 "VelocityStateTest.RoundTrip_EnumFloatEnum" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-32/59 Testing: VelocityStateTest.Boundaries_AtSwitchPoints
-32/59 Test: VelocityStateTest.Boundaries_AtSwitchPoints
+32/63 Testing: VelocityStateTest.Boundaries_AtSwitchPoints
+32/63 Test: VelocityStateTest.Boundaries_AtSwitchPoints
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_velocity_tests" "--gtest_filter=VelocityStateTest.Boundaries_AtSwitchPoints" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"VelocityStateTest.Boundaries_AtSwitchPoints" start time: Apr 02 19:55 EDT
+"VelocityStateTest.Boundaries_AtSwitchPoints" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -857,18 +857,18 @@ Note: Google Test filter = VelocityStateTest.Boundaries_AtSwitchPoints
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"VelocityStateTest.Boundaries_AtSwitchPoints" end time: Apr 02 19:55 EDT
+"VelocityStateTest.Boundaries_AtSwitchPoints" end time: Apr 02 20:15 EDT
 "VelocityStateTest.Boundaries_AtSwitchPoints" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-33/59 Testing: MatchIntegrationTest.StartsInPreMatch
-33/59 Test: MatchIntegrationTest.StartsInPreMatch
+33/63 Testing: MatchIntegrationTest.StartsInPreMatch
+33/63 Test: MatchIntegrationTest.StartsInPreMatch
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_integration_tests" "--gtest_filter=MatchIntegrationTest.StartsInPreMatch" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"MatchIntegrationTest.StartsInPreMatch" start time: Apr 02 19:55 EDT
+"MatchIntegrationTest.StartsInPreMatch" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -887,15 +887,15 @@ Note: Google Test filter = MatchIntegrationTest.StartsInPreMatch
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"MatchIntegrationTest.StartsInPreMatch" end time: Apr 02 19:55 EDT
+"MatchIntegrationTest.StartsInPreMatch" end time: Apr 02 20:15 EDT
 "MatchIntegrationTest.StartsInPreMatch" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-34/59 Testing: MatchIntegrationTest.TransitionsToHalfTimeAfter45Minutes
-34/59 Test: MatchIntegrationTest.TransitionsToHalfTimeAfter45Minutes
+34/63 Testing: MatchIntegrationTest.TransitionsToHalfTimeAfter45Minutes
+34/63 Test: MatchIntegrationTest.TransitionsToHalfTimeAfter45Minutes
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_integration_tests" "--gtest_filter=MatchIntegrationTest.TransitionsToHalfTimeAfter45Minutes" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"MatchIntegrationTest.TransitionsToHalfTimeAfter45Minutes" start time: Apr 02 19:55 EDT
+"MatchIntegrationTest.TransitionsToHalfTimeAfter45Minutes" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -914,15 +914,15 @@ Note: Google Test filter = MatchIntegrationTest.TransitionsToHalfTimeAfter45Minu
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"MatchIntegrationTest.TransitionsToHalfTimeAfter45Minutes" end time: Apr 02 19:55 EDT
+"MatchIntegrationTest.TransitionsToHalfTimeAfter45Minutes" end time: Apr 02 20:15 EDT
 "MatchIntegrationTest.TransitionsToHalfTimeAfter45Minutes" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-35/59 Testing: MatchIntegrationTest.TransitionsToFullTimeAfter90Minutes
-35/59 Test: MatchIntegrationTest.TransitionsToFullTimeAfter90Minutes
+35/63 Testing: MatchIntegrationTest.TransitionsToFullTimeAfter90Minutes
+35/63 Test: MatchIntegrationTest.TransitionsToFullTimeAfter90Minutes
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_integration_tests" "--gtest_filter=MatchIntegrationTest.TransitionsToFullTimeAfter90Minutes" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"MatchIntegrationTest.TransitionsToFullTimeAfter90Minutes" start time: Apr 02 19:55 EDT
+"MatchIntegrationTest.TransitionsToFullTimeAfter90Minutes" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -941,15 +941,15 @@ Note: Google Test filter = MatchIntegrationTest.TransitionsToFullTimeAfter90Minu
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"MatchIntegrationTest.TransitionsToFullTimeAfter90Minutes" end time: Apr 02 19:55 EDT
+"MatchIntegrationTest.TransitionsToFullTimeAfter90Minutes" end time: Apr 02 20:15 EDT
 "MatchIntegrationTest.TransitionsToFullTimeAfter90Minutes" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-36/59 Testing: MatchIntegrationTest.TotalElapsedTimeIs90MinutesAtFullTime
-36/59 Test: MatchIntegrationTest.TotalElapsedTimeIs90MinutesAtFullTime
+36/63 Testing: MatchIntegrationTest.TotalElapsedTimeIs90MinutesAtFullTime
+36/63 Test: MatchIntegrationTest.TotalElapsedTimeIs90MinutesAtFullTime
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_integration_tests" "--gtest_filter=MatchIntegrationTest.TotalElapsedTimeIs90MinutesAtFullTime" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"MatchIntegrationTest.TotalElapsedTimeIs90MinutesAtFullTime" start time: Apr 02 19:55 EDT
+"MatchIntegrationTest.TotalElapsedTimeIs90MinutesAtFullTime" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -968,15 +968,15 @@ Note: Google Test filter = MatchIntegrationTest.TotalElapsedTimeIs90MinutesAtFul
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"MatchIntegrationTest.TotalElapsedTimeIs90MinutesAtFullTime" end time: Apr 02 19:55 EDT
+"MatchIntegrationTest.TotalElapsedTimeIs90MinutesAtFullTime" end time: Apr 02 20:15 EDT
 "MatchIntegrationTest.TotalElapsedTimeIs90MinutesAtFullTime" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-37/59 Testing: MatchIntegrationTest.InitialScoreIsZeroZero
-37/59 Test: MatchIntegrationTest.InitialScoreIsZeroZero
+37/63 Testing: MatchIntegrationTest.InitialScoreIsZeroZero
+37/63 Test: MatchIntegrationTest.InitialScoreIsZeroZero
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_integration_tests" "--gtest_filter=MatchIntegrationTest.InitialScoreIsZeroZero" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"MatchIntegrationTest.InitialScoreIsZeroZero" start time: Apr 02 19:55 EDT
+"MatchIntegrationTest.InitialScoreIsZeroZero" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -995,15 +995,15 @@ Note: Google Test filter = MatchIntegrationTest.InitialScoreIsZeroZero
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"MatchIntegrationTest.InitialScoreIsZeroZero" end time: Apr 02 19:55 EDT
+"MatchIntegrationTest.InitialScoreIsZeroZero" end time: Apr 02 20:15 EDT
 "MatchIntegrationTest.InitialScoreIsZeroZero" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-38/59 Testing: MatchIntegrationTest.GoalsScoredDuringMatchAreRecorded
-38/59 Test: MatchIntegrationTest.GoalsScoredDuringMatchAreRecorded
+38/63 Testing: MatchIntegrationTest.GoalsScoredDuringMatchAreRecorded
+38/63 Test: MatchIntegrationTest.GoalsScoredDuringMatchAreRecorded
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_integration_tests" "--gtest_filter=MatchIntegrationTest.GoalsScoredDuringMatchAreRecorded" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"MatchIntegrationTest.GoalsScoredDuringMatchAreRecorded" start time: Apr 02 19:55 EDT
+"MatchIntegrationTest.GoalsScoredDuringMatchAreRecorded" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1022,15 +1022,15 @@ Note: Google Test filter = MatchIntegrationTest.GoalsScoredDuringMatchAreRecorde
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"MatchIntegrationTest.GoalsScoredDuringMatchAreRecorded" end time: Apr 02 19:55 EDT
+"MatchIntegrationTest.GoalsScoredDuringMatchAreRecorded" end time: Apr 02 20:15 EDT
 "MatchIntegrationTest.GoalsScoredDuringMatchAreRecorded" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-39/59 Testing: MatchIntegrationTest.MultipleGoalsAccumulate
-39/59 Test: MatchIntegrationTest.MultipleGoalsAccumulate
+39/63 Testing: MatchIntegrationTest.MultipleGoalsAccumulate
+39/63 Test: MatchIntegrationTest.MultipleGoalsAccumulate
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_integration_tests" "--gtest_filter=MatchIntegrationTest.MultipleGoalsAccumulate" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"MatchIntegrationTest.MultipleGoalsAccumulate" start time: Apr 02 19:55 EDT
+"MatchIntegrationTest.MultipleGoalsAccumulate" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1049,15 +1049,15 @@ Note: Google Test filter = MatchIntegrationTest.MultipleGoalsAccumulate
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"MatchIntegrationTest.MultipleGoalsAccumulate" end time: Apr 02 19:55 EDT
+"MatchIntegrationTest.MultipleGoalsAccumulate" end time: Apr 02 20:15 EDT
 "MatchIntegrationTest.MultipleGoalsAccumulate" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-40/59 Testing: MatchIntegrationTest.TickDoesNothingInPreMatch
-40/59 Test: MatchIntegrationTest.TickDoesNothingInPreMatch
+40/63 Testing: MatchIntegrationTest.TickDoesNothingInPreMatch
+40/63 Test: MatchIntegrationTest.TickDoesNothingInPreMatch
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_integration_tests" "--gtest_filter=MatchIntegrationTest.TickDoesNothingInPreMatch" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"MatchIntegrationTest.TickDoesNothingInPreMatch" start time: Apr 02 19:55 EDT
+"MatchIntegrationTest.TickDoesNothingInPreMatch" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1076,15 +1076,15 @@ Note: Google Test filter = MatchIntegrationTest.TickDoesNothingInPreMatch
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"MatchIntegrationTest.TickDoesNothingInPreMatch" end time: Apr 02 19:55 EDT
+"MatchIntegrationTest.TickDoesNothingInPreMatch" end time: Apr 02 20:15 EDT
 "MatchIntegrationTest.TickDoesNothingInPreMatch" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-41/59 Testing: MatchIntegrationTest.TickDoesNothingAtHalfTime
-41/59 Test: MatchIntegrationTest.TickDoesNothingAtHalfTime
+41/63 Testing: MatchIntegrationTest.TickDoesNothingAtHalfTime
+41/63 Test: MatchIntegrationTest.TickDoesNothingAtHalfTime
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_integration_tests" "--gtest_filter=MatchIntegrationTest.TickDoesNothingAtHalfTime" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"MatchIntegrationTest.TickDoesNothingAtHalfTime" start time: Apr 02 19:55 EDT
+"MatchIntegrationTest.TickDoesNothingAtHalfTime" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1103,15 +1103,15 @@ Note: Google Test filter = MatchIntegrationTest.TickDoesNothingAtHalfTime
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"MatchIntegrationTest.TickDoesNothingAtHalfTime" end time: Apr 02 19:55 EDT
+"MatchIntegrationTest.TickDoesNothingAtHalfTime" end time: Apr 02 20:15 EDT
 "MatchIntegrationTest.TickDoesNothingAtHalfTime" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-42/59 Testing: MatchIntegrationTest.FullMatchSimulationSingleTick
-42/59 Test: MatchIntegrationTest.FullMatchSimulationSingleTick
+42/63 Testing: MatchIntegrationTest.FullMatchSimulationSingleTick
+42/63 Test: MatchIntegrationTest.FullMatchSimulationSingleTick
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_integration_tests" "--gtest_filter=MatchIntegrationTest.FullMatchSimulationSingleTick" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"MatchIntegrationTest.FullMatchSimulationSingleTick" start time: Apr 02 19:55 EDT
+"MatchIntegrationTest.FullMatchSimulationSingleTick" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1130,15 +1130,123 @@ Note: Google Test filter = MatchIntegrationTest.FullMatchSimulationSingleTick
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"MatchIntegrationTest.FullMatchSimulationSingleTick" end time: Apr 02 19:55 EDT
+"MatchIntegrationTest.FullMatchSimulationSingleTick" end time: Apr 02 20:15 EDT
 "MatchIntegrationTest.FullMatchSimulationSingleTick" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-43/59 Testing: CareerDataTest.ReputationClampsAtHundred
-43/59 Test: CareerDataTest.ReputationClampsAtHundred
+43/63 Testing: LeagueBootstrapIntegrationTest.CreateNewLeagueSaveCopiesDatabaseAndKnownAssets
+43/63 Test: LeagueBootstrapIntegrationTest.CreateNewLeagueSaveCopiesDatabaseAndKnownAssets
+Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_league_integration_tests" "--gtest_filter=LeagueBootstrapIntegrationTest.CreateNewLeagueSaveCopiesDatabaseAndKnownAssets" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
+"LeagueBootstrapIntegrationTest.CreateNewLeagueSaveCopiesDatabaseAndKnownAssets" start time: Apr 02 20:15 EDT
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = LeagueBootstrapIntegrationTest.CreateNewLeagueSaveCopiesDatabaseAndKnownAssets
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LeagueBootstrapIntegrationTest
+[ RUN      ] LeagueBootstrapIntegrationTest.CreateNewLeagueSaveCopiesDatabaseAndKnownAssets
+[       OK ] LeagueBootstrapIntegrationTest.CreateNewLeagueSaveCopiesDatabaseAndKnownAssets (54 ms)
+[----------] 1 test from LeagueBootstrapIntegrationTest (54 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (54 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"LeagueBootstrapIntegrationTest.CreateNewLeagueSaveCopiesDatabaseAndKnownAssets" end time: Apr 02 20:15 EDT
+"LeagueBootstrapIntegrationTest.CreateNewLeagueSaveCopiesDatabaseAndKnownAssets" time elapsed: 00:00:00
+----------------------------------------------------------
+
+44/63 Testing: LeagueBootstrapIntegrationTest.PrepareDatabaseForLeagueSupportsProfileXmlSchema
+44/63 Test: LeagueBootstrapIntegrationTest.PrepareDatabaseForLeagueSupportsProfileXmlSchema
+Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_league_integration_tests" "--gtest_filter=LeagueBootstrapIntegrationTest.PrepareDatabaseForLeagueSupportsProfileXmlSchema" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
+"LeagueBootstrapIntegrationTest.PrepareDatabaseForLeagueSupportsProfileXmlSchema" start time: Apr 02 20:15 EDT
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = LeagueBootstrapIntegrationTest.PrepareDatabaseForLeagueSupportsProfileXmlSchema
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LeagueBootstrapIntegrationTest
+[ RUN      ] LeagueBootstrapIntegrationTest.PrepareDatabaseForLeagueSupportsProfileXmlSchema
+[       OK ] LeagueBootstrapIntegrationTest.PrepareDatabaseForLeagueSupportsProfileXmlSchema (76 ms)
+[----------] 1 test from LeagueBootstrapIntegrationTest (76 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (76 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"LeagueBootstrapIntegrationTest.PrepareDatabaseForLeagueSupportsProfileXmlSchema" end time: Apr 02 20:15 EDT
+"LeagueBootstrapIntegrationTest.PrepareDatabaseForLeagueSupportsProfileXmlSchema" time elapsed: 00:00:00
+----------------------------------------------------------
+
+45/63 Testing: LeagueBootstrapIntegrationTest.GenerateSeasonCalendarsCreatesRoundRobinFixtures
+45/63 Test: LeagueBootstrapIntegrationTest.GenerateSeasonCalendarsCreatesRoundRobinFixtures
+Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_league_integration_tests" "--gtest_filter=LeagueBootstrapIntegrationTest.GenerateSeasonCalendarsCreatesRoundRobinFixtures" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
+"LeagueBootstrapIntegrationTest.GenerateSeasonCalendarsCreatesRoundRobinFixtures" start time: Apr 02 20:15 EDT
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = LeagueBootstrapIntegrationTest.GenerateSeasonCalendarsCreatesRoundRobinFixtures
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LeagueBootstrapIntegrationTest
+[ RUN      ] LeagueBootstrapIntegrationTest.GenerateSeasonCalendarsCreatesRoundRobinFixtures
+[       OK ] LeagueBootstrapIntegrationTest.GenerateSeasonCalendarsCreatesRoundRobinFixtures (206 ms)
+[----------] 1 test from LeagueBootstrapIntegrationTest (206 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (206 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.21 sec
+----------------------------------------------------------
+Test Passed.
+"LeagueBootstrapIntegrationTest.GenerateSeasonCalendarsCreatesRoundRobinFixtures" end time: Apr 02 20:15 EDT
+"LeagueBootstrapIntegrationTest.GenerateSeasonCalendarsCreatesRoundRobinFixtures" time elapsed: 00:00:00
+----------------------------------------------------------
+
+46/63 Testing: LeagueBootstrapIntegrationTest.StepLeagueTimeAdvancesMatchDaysAndRollsSeason
+46/63 Test: LeagueBootstrapIntegrationTest.StepLeagueTimeAdvancesMatchDaysAndRollsSeason
+Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_league_integration_tests" "--gtest_filter=LeagueBootstrapIntegrationTest.StepLeagueTimeAdvancesMatchDaysAndRollsSeason" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
+"LeagueBootstrapIntegrationTest.StepLeagueTimeAdvancesMatchDaysAndRollsSeason" start time: Apr 02 20:15 EDT
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = LeagueBootstrapIntegrationTest.StepLeagueTimeAdvancesMatchDaysAndRollsSeason
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LeagueBootstrapIntegrationTest
+[ RUN      ] LeagueBootstrapIntegrationTest.StepLeagueTimeAdvancesMatchDaysAndRollsSeason
+[       OK ] LeagueBootstrapIntegrationTest.StepLeagueTimeAdvancesMatchDaysAndRollsSeason (202 ms)
+[----------] 1 test from LeagueBootstrapIntegrationTest (202 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (202 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.21 sec
+----------------------------------------------------------
+Test Passed.
+"LeagueBootstrapIntegrationTest.StepLeagueTimeAdvancesMatchDaysAndRollsSeason" end time: Apr 02 20:15 EDT
+"LeagueBootstrapIntegrationTest.StepLeagueTimeAdvancesMatchDaysAndRollsSeason" time elapsed: 00:00:00
+----------------------------------------------------------
+
+47/63 Testing: CareerDataTest.ReputationClampsAtHundred
+47/63 Test: CareerDataTest.ReputationClampsAtHundred
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_career_tests" "--gtest_filter=CareerDataTest.ReputationClampsAtHundred" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"CareerDataTest.ReputationClampsAtHundred" start time: Apr 02 19:55 EDT
+"CareerDataTest.ReputationClampsAtHundred" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1157,15 +1265,15 @@ Note: Google Test filter = CareerDataTest.ReputationClampsAtHundred
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"CareerDataTest.ReputationClampsAtHundred" end time: Apr 02 19:55 EDT
+"CareerDataTest.ReputationClampsAtHundred" end time: Apr 02 20:15 EDT
 "CareerDataTest.ReputationClampsAtHundred" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-44/59 Testing: CareerDataTest.ReputationClampsAtZero
-44/59 Test: CareerDataTest.ReputationClampsAtZero
+48/63 Testing: CareerDataTest.ReputationClampsAtZero
+48/63 Test: CareerDataTest.ReputationClampsAtZero
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_career_tests" "--gtest_filter=CareerDataTest.ReputationClampsAtZero" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"CareerDataTest.ReputationClampsAtZero" start time: Apr 02 19:55 EDT
+"CareerDataTest.ReputationClampsAtZero" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1184,15 +1292,15 @@ Note: Google Test filter = CareerDataTest.ReputationClampsAtZero
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"CareerDataTest.ReputationClampsAtZero" end time: Apr 02 19:55 EDT
+"CareerDataTest.ReputationClampsAtZero" end time: Apr 02 20:15 EDT
 "CareerDataTest.ReputationClampsAtZero" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-45/59 Testing: CareerDataTest.ReputationPositiveDelta
-45/59 Test: CareerDataTest.ReputationPositiveDelta
+49/63 Testing: CareerDataTest.ReputationPositiveDelta
+49/63 Test: CareerDataTest.ReputationPositiveDelta
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_career_tests" "--gtest_filter=CareerDataTest.ReputationPositiveDelta" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"CareerDataTest.ReputationPositiveDelta" start time: Apr 02 19:55 EDT
+"CareerDataTest.ReputationPositiveDelta" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1208,18 +1316,18 @@ Note: Google Test filter = CareerDataTest.ReputationPositiveDelta
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"CareerDataTest.ReputationPositiveDelta" end time: Apr 02 19:55 EDT
+"CareerDataTest.ReputationPositiveDelta" end time: Apr 02 20:15 EDT
 "CareerDataTest.ReputationPositiveDelta" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-46/59 Testing: CareerDataTest.ReputationNegativeDelta
-46/59 Test: CareerDataTest.ReputationNegativeDelta
+50/63 Testing: CareerDataTest.ReputationNegativeDelta
+50/63 Test: CareerDataTest.ReputationNegativeDelta
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_career_tests" "--gtest_filter=CareerDataTest.ReputationNegativeDelta" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"CareerDataTest.ReputationNegativeDelta" start time: Apr 02 19:55 EDT
+"CareerDataTest.ReputationNegativeDelta" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1238,15 +1346,15 @@ Note: Google Test filter = CareerDataTest.ReputationNegativeDelta
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"CareerDataTest.ReputationNegativeDelta" end time: Apr 02 19:55 EDT
+"CareerDataTest.ReputationNegativeDelta" end time: Apr 02 20:15 EDT
 "CareerDataTest.ReputationNegativeDelta" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-47/59 Testing: CareerDataTest.ReputationNoopForUnknownSave
-47/59 Test: CareerDataTest.ReputationNoopForUnknownSave
+51/63 Testing: CareerDataTest.ReputationNoopForUnknownSave
+51/63 Test: CareerDataTest.ReputationNoopForUnknownSave
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_career_tests" "--gtest_filter=CareerDataTest.ReputationNoopForUnknownSave" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"CareerDataTest.ReputationNoopForUnknownSave" start time: Apr 02 19:55 EDT
+"CareerDataTest.ReputationNoopForUnknownSave" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1262,18 +1370,18 @@ Note: Google Test filter = CareerDataTest.ReputationNoopForUnknownSave
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"CareerDataTest.ReputationNoopForUnknownSave" end time: Apr 02 19:55 EDT
+"CareerDataTest.ReputationNoopForUnknownSave" end time: Apr 02 20:15 EDT
 "CareerDataTest.ReputationNoopForUnknownSave" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-48/59 Testing: CareerDataTest.SetLeagueExpansionSettingsPersists
-48/59 Test: CareerDataTest.SetLeagueExpansionSettingsPersists
+52/63 Testing: CareerDataTest.SetLeagueExpansionSettingsPersists
+52/63 Test: CareerDataTest.SetLeagueExpansionSettingsPersists
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_career_tests" "--gtest_filter=CareerDataTest.SetLeagueExpansionSettingsPersists" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"CareerDataTest.SetLeagueExpansionSettingsPersists" start time: Apr 02 19:55 EDT
+"CareerDataTest.SetLeagueExpansionSettingsPersists" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1292,15 +1400,15 @@ Note: Google Test filter = CareerDataTest.SetLeagueExpansionSettingsPersists
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"CareerDataTest.SetLeagueExpansionSettingsPersists" end time: Apr 02 19:55 EDT
+"CareerDataTest.SetLeagueExpansionSettingsPersists" end time: Apr 02 20:15 EDT
 "CareerDataTest.SetLeagueExpansionSettingsPersists" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-49/59 Testing: CareerDataTest.ComputePromotionRelegation_BottomTeamsRelegated
-49/59 Test: CareerDataTest.ComputePromotionRelegation_BottomTeamsRelegated
+53/63 Testing: CareerDataTest.ComputePromotionRelegation_BottomTeamsRelegated
+53/63 Test: CareerDataTest.ComputePromotionRelegation_BottomTeamsRelegated
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_career_tests" "--gtest_filter=CareerDataTest.ComputePromotionRelegation_BottomTeamsRelegated" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"CareerDataTest.ComputePromotionRelegation_BottomTeamsRelegated" start time: Apr 02 19:55 EDT
+"CareerDataTest.ComputePromotionRelegation_BottomTeamsRelegated" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1319,15 +1427,15 @@ Note: Google Test filter = CareerDataTest.ComputePromotionRelegation_BottomTeams
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"CareerDataTest.ComputePromotionRelegation_BottomTeamsRelegated" end time: Apr 02 19:55 EDT
+"CareerDataTest.ComputePromotionRelegation_BottomTeamsRelegated" end time: Apr 02 20:15 EDT
 "CareerDataTest.ComputePromotionRelegation_BottomTeamsRelegated" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-50/59 Testing: CareerDataTest.ComputePromotionRelegation_LastDivisionNotRelegated
-50/59 Test: CareerDataTest.ComputePromotionRelegation_LastDivisionNotRelegated
+54/63 Testing: CareerDataTest.ComputePromotionRelegation_LastDivisionNotRelegated
+54/63 Test: CareerDataTest.ComputePromotionRelegation_LastDivisionNotRelegated
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_career_tests" "--gtest_filter=CareerDataTest.ComputePromotionRelegation_LastDivisionNotRelegated" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"CareerDataTest.ComputePromotionRelegation_LastDivisionNotRelegated" start time: Apr 02 19:55 EDT
+"CareerDataTest.ComputePromotionRelegation_LastDivisionNotRelegated" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1346,15 +1454,15 @@ Note: Google Test filter = CareerDataTest.ComputePromotionRelegation_LastDivisio
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"CareerDataTest.ComputePromotionRelegation_LastDivisionNotRelegated" end time: Apr 02 19:55 EDT
+"CareerDataTest.ComputePromotionRelegation_LastDivisionNotRelegated" end time: Apr 02 20:15 EDT
 "CareerDataTest.ComputePromotionRelegation_LastDivisionNotRelegated" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-51/59 Testing: CareerDataTest.ComputePromotionRelegation_EmptyStandings
-51/59 Test: CareerDataTest.ComputePromotionRelegation_EmptyStandings
+55/63 Testing: CareerDataTest.ComputePromotionRelegation_EmptyStandings
+55/63 Test: CareerDataTest.ComputePromotionRelegation_EmptyStandings
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_career_tests" "--gtest_filter=CareerDataTest.ComputePromotionRelegation_EmptyStandings" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"CareerDataTest.ComputePromotionRelegation_EmptyStandings" start time: Apr 02 19:55 EDT
+"CareerDataTest.ComputePromotionRelegation_EmptyStandings" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1373,15 +1481,15 @@ Note: Google Test filter = CareerDataTest.ComputePromotionRelegation_EmptyStandi
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"CareerDataTest.ComputePromotionRelegation_EmptyStandings" end time: Apr 02 19:55 EDT
+"CareerDataTest.ComputePromotionRelegation_EmptyStandings" end time: Apr 02 20:15 EDT
 "CareerDataTest.ComputePromotionRelegation_EmptyStandings" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-52/59 Testing: CareerDataTest.SetCustomLeaguePersists
-52/59 Test: CareerDataTest.SetCustomLeaguePersists
+56/63 Testing: CareerDataTest.SetCustomLeaguePersists
+56/63 Test: CareerDataTest.SetCustomLeaguePersists
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_career_tests" "--gtest_filter=CareerDataTest.SetCustomLeaguePersists" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"CareerDataTest.SetCustomLeaguePersists" start time: Apr 02 19:55 EDT
+"CareerDataTest.SetCustomLeaguePersists" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1400,15 +1508,15 @@ Note: Google Test filter = CareerDataTest.SetCustomLeaguePersists
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"CareerDataTest.SetCustomLeaguePersists" end time: Apr 02 19:55 EDT
+"CareerDataTest.SetCustomLeaguePersists" end time: Apr 02 20:15 EDT
 "CareerDataTest.SetCustomLeaguePersists" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-53/59 Testing: CareerDataTest.SetCustomLeagueNoopForUnknownSave
-53/59 Test: CareerDataTest.SetCustomLeagueNoopForUnknownSave
+57/63 Testing: CareerDataTest.SetCustomLeagueNoopForUnknownSave
+57/63 Test: CareerDataTest.SetCustomLeagueNoopForUnknownSave
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_career_tests" "--gtest_filter=CareerDataTest.SetCustomLeagueNoopForUnknownSave" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"CareerDataTest.SetCustomLeagueNoopForUnknownSave" start time: Apr 02 19:55 EDT
+"CareerDataTest.SetCustomLeagueNoopForUnknownSave" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1424,18 +1532,18 @@ Note: Google Test filter = CareerDataTest.SetCustomLeagueNoopForUnknownSave
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"CareerDataTest.SetCustomLeagueNoopForUnknownSave" end time: Apr 02 19:55 EDT
+"CareerDataTest.SetCustomLeagueNoopForUnknownSave" end time: Apr 02 20:15 EDT
 "CareerDataTest.SetCustomLeagueNoopForUnknownSave" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-54/59 Testing: DraftDataTest.ProjectedPickMatchesSortedOrder
-54/59 Test: DraftDataTest.ProjectedPickMatchesSortedOrder
+58/63 Testing: DraftDataTest.ProjectedPickMatchesSortedOrder
+58/63 Test: DraftDataTest.ProjectedPickMatchesSortedOrder
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_career_tests" "--gtest_filter=DraftDataTest.ProjectedPickMatchesSortedOrder" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"DraftDataTest.ProjectedPickMatchesSortedOrder" start time: Apr 02 19:55 EDT
+"DraftDataTest.ProjectedPickMatchesSortedOrder" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1454,15 +1562,15 @@ Note: Google Test filter = DraftDataTest.ProjectedPickMatchesSortedOrder
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"DraftDataTest.ProjectedPickMatchesSortedOrder" end time: Apr 02 19:55 EDT
+"DraftDataTest.ProjectedPickMatchesSortedOrder" end time: Apr 02 20:15 EDT
 "DraftDataTest.ProjectedPickMatchesSortedOrder" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-55/59 Testing: DraftDataTest.ProjectedPickIsOneForBestProspect
-55/59 Test: DraftDataTest.ProjectedPickIsOneForBestProspect
+59/63 Testing: DraftDataTest.ProjectedPickIsOneForBestProspect
+59/63 Test: DraftDataTest.ProjectedPickIsOneForBestProspect
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_career_tests" "--gtest_filter=DraftDataTest.ProjectedPickIsOneForBestProspect" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"DraftDataTest.ProjectedPickIsOneForBestProspect" start time: Apr 02 19:55 EDT
+"DraftDataTest.ProjectedPickIsOneForBestProspect" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1478,18 +1586,18 @@ Note: Google Test filter = DraftDataTest.ProjectedPickIsOneForBestProspect
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"DraftDataTest.ProjectedPickIsOneForBestProspect" end time: Apr 02 19:55 EDT
+"DraftDataTest.ProjectedPickIsOneForBestProspect" end time: Apr 02 20:15 EDT
 "DraftDataTest.ProjectedPickIsOneForBestProspect" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-56/59 Testing: ScoutingNetworkTest.UncertaintyAtSkill100Is5
-56/59 Test: ScoutingNetworkTest.UncertaintyAtSkill100Is5
+60/63 Testing: ScoutingNetworkTest.UncertaintyAtSkill100Is5
+60/63 Test: ScoutingNetworkTest.UncertaintyAtSkill100Is5
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_career_tests" "--gtest_filter=ScoutingNetworkTest.UncertaintyAtSkill100Is5" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"ScoutingNetworkTest.UncertaintyAtSkill100Is5" start time: Apr 02 19:55 EDT
+"ScoutingNetworkTest.UncertaintyAtSkill100Is5" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1508,15 +1616,15 @@ Note: Google Test filter = ScoutingNetworkTest.UncertaintyAtSkill100Is5
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"ScoutingNetworkTest.UncertaintyAtSkill100Is5" end time: Apr 02 19:55 EDT
+"ScoutingNetworkTest.UncertaintyAtSkill100Is5" end time: Apr 02 20:15 EDT
 "ScoutingNetworkTest.UncertaintyAtSkill100Is5" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-57/59 Testing: ScoutingNetworkTest.UncertaintyAtSkill0Is30
-57/59 Test: ScoutingNetworkTest.UncertaintyAtSkill0Is30
+61/63 Testing: ScoutingNetworkTest.UncertaintyAtSkill0Is30
+61/63 Test: ScoutingNetworkTest.UncertaintyAtSkill0Is30
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_career_tests" "--gtest_filter=ScoutingNetworkTest.UncertaintyAtSkill0Is30" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"ScoutingNetworkTest.UncertaintyAtSkill0Is30" start time: Apr 02 19:55 EDT
+"ScoutingNetworkTest.UncertaintyAtSkill0Is30" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1535,15 +1643,15 @@ Note: Google Test filter = ScoutingNetworkTest.UncertaintyAtSkill0Is30
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"ScoutingNetworkTest.UncertaintyAtSkill0Is30" end time: Apr 02 19:55 EDT
+"ScoutingNetworkTest.UncertaintyAtSkill0Is30" end time: Apr 02 20:15 EDT
 "ScoutingNetworkTest.UncertaintyAtSkill0Is30" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-58/59 Testing: ScoutingNetworkTest.UncertaintyAtSkill50Is18
-58/59 Test: ScoutingNetworkTest.UncertaintyAtSkill50Is18
+62/63 Testing: ScoutingNetworkTest.UncertaintyAtSkill50Is18
+62/63 Test: ScoutingNetworkTest.UncertaintyAtSkill50Is18
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_career_tests" "--gtest_filter=ScoutingNetworkTest.UncertaintyAtSkill50Is18" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"ScoutingNetworkTest.UncertaintyAtSkill50Is18" start time: Apr 02 19:55 EDT
+"ScoutingNetworkTest.UncertaintyAtSkill50Is18" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1562,15 +1670,15 @@ Note: Google Test filter = ScoutingNetworkTest.UncertaintyAtSkill50Is18
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"ScoutingNetworkTest.UncertaintyAtSkill50Is18" end time: Apr 02 19:55 EDT
+"ScoutingNetworkTest.UncertaintyAtSkill50Is18" end time: Apr 02 20:15 EDT
 "ScoutingNetworkTest.UncertaintyAtSkill50Is18" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-59/59 Testing: ScoutingNetworkTest.NoScoutUsesDefaultSkill50
-59/59 Test: ScoutingNetworkTest.NoScoutUsesDefaultSkill50
+63/63 Testing: ScoutingNetworkTest.NoScoutUsesDefaultSkill50
+63/63 Test: ScoutingNetworkTest.NoScoutUsesDefaultSkill50
 Command: "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests/gameplayfootball_career_tests" "--gtest_filter=ScoutingNetworkTest.NoScoutUsesDefaultSkill50" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests
-"ScoutingNetworkTest.NoScoutUsesDefaultSkill50" start time: Apr 02 19:55 EDT
+"ScoutingNetworkTest.NoScoutUsesDefaultSkill50" start time: Apr 02 20:15 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1589,8 +1697,8 @@ Note: Google Test filter = ScoutingNetworkTest.NoScoutUsesDefaultSkill50
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"ScoutingNetworkTest.NoScoutUsesDefaultSkill50" end time: Apr 02 19:55 EDT
+"ScoutingNetworkTest.NoScoutUsesDefaultSkill50" end time: Apr 02 20:15 EDT
 "ScoutingNetworkTest.NoScoutUsesDefaultSkill50" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Apr 02 19:55 EDT
+End testing: Apr 02 20:15 EDT

@@ -67,6 +67,42 @@
 },
 {
   "directory": "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/src -isystem /home/allen/vcpkg/installed/x64-linux/include -isystem /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/include -isystem /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest -std=c++17 -o CMakeFiles/gameplayfootball_league_integration_tests.dir/integration/league_bootstrap_test.cpp.o -c /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/tests/integration/league_bootstrap_test.cpp",
+  "file": "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/tests/integration/league_bootstrap_test.cpp",
+  "output": "tests/CMakeFiles/gameplayfootball_league_integration_tests.dir/integration/league_bootstrap_test.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/src -isystem /home/allen/vcpkg/installed/x64-linux/include -isystem /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/include -isystem /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest -std=c++17 -o CMakeFiles/gameplayfootball_league_integration_tests.dir/__/src/league/leaguecode.cpp.o -c /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/src/league/leaguecode.cpp",
+  "file": "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/src/league/leaguecode.cpp",
+  "output": "tests/CMakeFiles/gameplayfootball_league_integration_tests.dir/__/src/league/leaguecode.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/src -isystem /home/allen/vcpkg/installed/x64-linux/include -isystem /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/include -isystem /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest -std=c++17 -o CMakeFiles/gameplayfootball_league_integration_tests.dir/__/src/utils/database.cpp.o -c /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/src/utils/database.cpp",
+  "file": "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/src/utils/database.cpp",
+  "output": "tests/CMakeFiles/gameplayfootball_league_integration_tests.dir/__/src/utils/database.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/src -isystem /home/allen/vcpkg/installed/x64-linux/include -isystem /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/include -isystem /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest -std=c++17 -o CMakeFiles/gameplayfootball_league_integration_tests.dir/__/src/utils/xmlloader.cpp.o -c /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/src/utils/xmlloader.cpp",
+  "file": "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/src/utils/xmlloader.cpp",
+  "output": "tests/CMakeFiles/gameplayfootball_league_integration_tests.dir/__/src/utils/xmlloader.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/src -isystem /home/allen/vcpkg/installed/x64-linux/include -isystem /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/include -isystem /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest -std=c++17 -o CMakeFiles/gameplayfootball_league_integration_tests.dir/__/src/base/properties.cpp.o -c /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/src/base/properties.cpp",
+  "file": "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/src/base/properties.cpp",
+  "output": "tests/CMakeFiles/gameplayfootball_league_integration_tests.dir/__/src/base/properties.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests",
+  "command": "/usr/bin/c++  -I/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/src -isystem /home/allen/vcpkg/installed/x64-linux/include -isystem /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/include -isystem /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest -std=c++17 -o CMakeFiles/gameplayfootball_league_integration_tests.dir/__/src/base/utils.cpp.o -c /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/src/base/utils.cpp",
+  "file": "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/src/base/utils.cpp",
+  "output": "tests/CMakeFiles/gameplayfootball_league_integration_tests.dir/__/src/base/utils.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/tests",
   "command": "/usr/bin/c++  -I/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/src -isystem /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest/include -isystem /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/build-wsl-headless/_deps/googletest-src/googletest -std=c++17 -o CMakeFiles/gameplayfootball_career_tests.dir/career/careerdata_test.cpp.o -c /mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/tests/career/careerdata_test.cpp",
   "file": "/mnt/c/Users/allen/Downloads/archivedwl-490/League-Soccer/tests/career/careerdata_test.cpp",
   "output": "tests/CMakeFiles/gameplayfootball_career_tests.dir/career/careerdata_test.cpp.o"
