@@ -93,6 +93,7 @@ public:
 
   virtual void Process();
   void GoControllerSelect();
+  void GoCareer();
   void GoLeague();
   void GoSettings();
   void GoCredits();

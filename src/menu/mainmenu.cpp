@@ -121,6 +121,7 @@ MainMenuPage::MainMenuPage(Gui2WindowManager* windowManager, const Gui2PageData&
 
   // Present only menu options that lead to working pages.
   buttons.push_back(new Gui2Button(windowManager, "button_main_start", 0, 0, 32, 6, "Quick Match"));
+  buttons.push_back(new Gui2Button(windowManager, "button_main_career", 0, 0, 32, 6, "Career Mode"));
   buttons.push_back(new Gui2Button(windowManager, "button_main_league", 0, 0, 32, 6, "League Mode"));
   buttons.push_back(new Gui2Button(windowManager, "button_main_settings", 0, 0, 32, 6, "Options"));
   buttons.push_back(new Gui2Button(windowManager, "button_main_credits", 0, 0, 32, 6, "Credits"));
@@ -132,18 +133,19 @@ MainMenuPage::MainMenuPage(Gui2WindowManager* windowManager, const Gui2PageData&
   }
 
   buttons.at(0)->sig_OnClick.connect([this](...) { GoControllerSelect(); });
-  buttons.at(1)->sig_OnClick.connect([this](...) { GoLeague(); });
-  buttons.at(2)->sig_OnClick.connect([this](...) { GoSettings(); });
-  buttons.at(3)->sig_OnClick.connect([this](...) { GoCredits(); });
+  buttons.at(1)->sig_OnClick.connect([this](...) { GoCareer(); });
+  buttons.at(2)->sig_OnClick.connect([this](...) { GoLeague(); });
+  buttons.at(3)->sig_OnClick.connect([this](...) { GoSettings(); });
+  buttons.at(4)->sig_OnClick.connect([this](...) { GoCredits(); });
   if (!IsReleaseVersion()) {
-    buttons.at(4)->sig_OnClick.connect(std::bind(&MenuTask::QuitGame, GetMenuTask()));
-    buttons.at(5)->sig_OnClick.connect([this](...) { GoImportDB(); });
+    buttons.at(5)->sig_OnClick.connect(std::bind(&MenuTask::QuitGame, GetMenuTask()));
+    buttons.at(6)->sig_OnClick.connect([this](...) { GoImportDB(); });
   } else {
-    buttons.at(4)->sig_OnClick.connect([this](...) { GoOutro(); });
+    buttons.at(5)->sig_OnClick.connect([this](...) { GoOutro(); });
   }
 
   // Single-column vertical list on the left side, wider to fit new buttons
-  grid = new Gui2Grid(windowManager, "grid_main", 4, 30, 34, 60);
+  grid = new Gui2Grid(windowManager, "grid_main", 4, 28, 34, 68);
 
   for (unsigned int i = 0; i < buttons.size(); i++) {
     grid->AddView(buttons.at(i), i, 0);
@@ -204,10 +206,20 @@ void MainMenuPage::GoControllerSelect() {
   delete this;
 }
 
-void MainMenuPage::GoLeague() {
+void MainMenuPage::GoCareer() {
   this->Exit();
 
   pageData.properties->Set("selectedButtonID", 1);
+  Properties properties;
+  windowManager->GetPageFactory()->CreatePage((int)e_PageID_CareerMenu, properties, 0);
+
+  delete this;
+}
+
+void MainMenuPage::GoLeague() {
+  this->Exit();
+
+  pageData.properties->Set("selectedButtonID", 2);
   Properties properties;
   windowManager->GetPageFactory()->CreatePage((int)e_PageID_League_Start, properties, 0);
 
@@ -217,7 +229,7 @@ void MainMenuPage::GoLeague() {
 void MainMenuPage::GoSettings() {
   this->Exit();
 
-  pageData.properties->Set("selectedButtonID", 2);
+  pageData.properties->Set("selectedButtonID", 3);
   Properties properties;
   windowManager->GetPageFactory()->CreatePage((int)e_PageID_Settings, properties, 0);
 
@@ -227,7 +239,7 @@ void MainMenuPage::GoSettings() {
 void MainMenuPage::GoCredits() {
   this->Exit();
 
-  pageData.properties->Set("selectedButtonID", 3);
+  pageData.properties->Set("selectedButtonID", 4);
   Properties properties;
   windowManager->GetPageFactory()->CreatePage((int)e_PageID_Credits, properties, 0);
 
