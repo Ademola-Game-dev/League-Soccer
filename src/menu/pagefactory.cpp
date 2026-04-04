@@ -335,14 +335,6 @@ Gui2Page* PageFactory::CreatePage(const Gui2PageData& pageData) {
       page = new CareerPressConferencePage(windowManager, pageData);
       break;
 
-    case e_PageID_CareerLeagueExpansion:
-      page = new CareerLeagueExpansionPage(windowManager, pageData);
-      break;
-
-    case e_PageID_CareerCustomLeague:
-      page = new CareerCustomLeaguePage(windowManager, pageData);
-      break;
-
     case e_PageID_CareerFreeAgency:
       page = new CareerFreeAgencyPage(windowManager, pageData);
       break;

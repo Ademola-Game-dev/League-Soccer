@@ -392,6 +392,9 @@ CareerHubPage::CareerHubPage(Gui2WindowManager* windowManager, const Gui2PageDat
   AddCareerCaption(summaryPanel, windowManager, "caption_careerhub_title", 4, 16, 28, 4,
                    "Club Control");
 
+  CareerSave* activeSave = CareerDatabase::GetInstance().GetActiveSave();
+  const bool isPlayerCareer = activeSave && activeSave->mode == "player";
+
   Gui2Button* btnTransfers =
       new Gui2Button(windowManager, "btn_transfers", 0, 0, 30, 4.5f, "Transfer Market");
   Gui2Button* btnFreeAgency =
@@ -403,10 +406,6 @@ CareerHubPage::CareerHubPage(Gui2WindowManager* windowManager, const Gui2PageDat
   Gui2Button* btnYouth = new Gui2Button(windowManager, "btn_youth", 0, 0, 30, 4.5f, "Youth Academy");
   Gui2Button* btnPressConf =
       new Gui2Button(windowManager, "btn_pressconf", 0, 0, 30, 4.5f, "Press Conference");
-  Gui2Button* btnLeagueExp =
-      new Gui2Button(windowManager, "btn_leagueexp", 0, 0, 30, 4.5f, "League Expansion");
-  Gui2Button* btnCustomLeague =
-      new Gui2Button(windowManager, "btn_customleague", 0, 0, 30, 4.5f, "Custom League");
   Gui2Button* btnSeason =
       new Gui2Button(windowManager, "btn_season_end", 26, 86, 48, 5.0f, "Open End of Season");
 
@@ -417,11 +416,8 @@ CareerHubPage::CareerHubPage(Gui2WindowManager* windowManager, const Gui2PageDat
   btnStrategy->sig_OnClick.connect([this](...) { GoStrategy(); });
   btnYouth->sig_OnClick.connect([this](...) { GoYouthAcademy(); });
   btnPressConf->sig_OnClick.connect([this](...) { GoPressConference(); });
-  btnLeagueExp->sig_OnClick.connect([this](...) { GoLeagueExpansion(); });
-  btnCustomLeague->sig_OnClick.connect([this](...) { GoCustomLeague(); });
   btnSeason->sig_OnClick.connect([this](...) { GoSeason(); });
 
-  CareerSave* activeSave = CareerDatabase::GetInstance().GetActiveSave();
   if (activeSave) {
     const std::string modeDisplay = GetCareerModeTitle(activeSave->mode);
 
@@ -461,38 +457,58 @@ CareerHubPage::CareerHubPage(Gui2WindowManager* windowManager, const Gui2PageDat
   }
 
   AddCareerCaption(sportingPanel, windowManager, "caption_hub_sporting", 6, 8, 20, 3,
-                   "Sporting", &accentColor);
+                   isPlayerCareer ? "Player Actions" : "Sporting", &accentColor);
   AddCareerCaption(sportingPanel, windowManager, "caption_hub_sporting_sub", 6, 14, 24, 2.5f,
-                   "Prepare the squad each week.", &kCareerMutedText);
+                   isPlayerCareer ? "Only player-safe features are shown."
+                                  : "Prepare the squad each week.",
+                   &kCareerMutedText);
 
   Gui2Grid* sportingGrid = new Gui2Grid(windowManager, "hub_sporting_grid", 5, 22, 31, 44);
-  sportingGrid->AddView(btnSquad, 0, 0);
-  sportingGrid->AddView(btnStrategy, 1, 0);
-  sportingGrid->AddView(btnTraining, 2, 0);
-  sportingGrid->AddView(btnYouth, 3, 0);
+  if (isPlayerCareer) {
+    sportingGrid->AddView(btnTraining, 0, 0);
+    sportingGrid->AddView(btnPressConf, 1, 0);
+    sportingGrid->AddView(btnSeason, 2, 0);
+  } else {
+    sportingGrid->AddView(btnSquad, 0, 0);
+    sportingGrid->AddView(btnStrategy, 1, 0);
+    sportingGrid->AddView(btnTraining, 2, 0);
+    sportingGrid->AddView(btnYouth, 3, 0);
+  }
   sportingGrid->UpdateLayout(0.8f, 0.8f, 1.0f, 1.0f);
   sportingPanel->AddView(sportingGrid);
   sportingGrid->Show();
 
   AddCareerCaption(operationsPanel, windowManager, "caption_hub_operations", 6, 8, 24, 3,
-                   "Front Office", &accentColor);
+                   isPlayerCareer ? "Coming Soon" : "Front Office", &accentColor);
   AddCareerCaption(operationsPanel, windowManager, "caption_hub_operations_sub", 6, 14, 24, 2.5f,
-                   "Transfers, media, and league shape.", &kCareerMutedText);
+                   isPlayerCareer ? "Transfers, contracts, and personal milestones"
+                                    " are still in development."
+                                  : "Working front-office tools only.",
+                   &kCareerMutedText);
 
-  Gui2Grid* operationsGrid = new Gui2Grid(windowManager, "hub_operations_grid", 5, 22, 31, 44);
-  operationsGrid->AddView(btnTransfers, 0, 0);
-  operationsGrid->AddView(btnFreeAgency, 1, 0);
-  operationsGrid->AddView(btnPressConf, 2, 0);
-  operationsGrid->AddView(btnLeagueExp, 3, 0);
-  operationsGrid->AddView(btnCustomLeague, 4, 0);
-  operationsGrid->UpdateLayout(0.8f, 0.8f, 1.0f, 1.0f);
-  operationsPanel->AddView(operationsGrid);
-  operationsGrid->Show();
+  if (isPlayerCareer) {
+    AddCareerCaption(operationsPanel, windowManager, "caption_hub_player_note_1", 6, 32, 26, 2.6f,
+                     "Player careers currently");
+    AddCareerCaption(operationsPanel, windowManager, "caption_hub_player_note_2", 6, 37, 26, 2.6f,
+                     "support training, media,");
+    AddCareerCaption(operationsPanel, windowManager, "caption_hub_player_note_3", 6, 42, 26, 2.6f,
+                     "and season progression.", &kCareerMutedText);
+  } else {
+    Gui2Grid* operationsGrid = new Gui2Grid(windowManager, "hub_operations_grid", 5, 22, 31, 44);
+    operationsGrid->AddView(btnTransfers, 0, 0);
+    operationsGrid->AddView(btnFreeAgency, 1, 0);
+    operationsGrid->AddView(btnPressConf, 2, 0);
+    operationsGrid->AddView(btnSeason, 3, 0);
+    operationsGrid->UpdateLayout(0.8f, 0.8f, 1.0f, 1.0f);
+    operationsPanel->AddView(operationsGrid);
+    operationsGrid->Show();
+  }
 
-  this->AddView(btnSeason);
-  btnSeason->Show();
-
-  btnSquad->SetFocus();
+  if (isPlayerCareer) {
+    btnTraining->SetFocus();
+  } else {
+    btnSquad->SetFocus();
+  }
   this->Show();
 }
 
@@ -506,12 +522,6 @@ void CareerHubPage::GoSquad() {
 }
 void CareerHubPage::GoPressConference() {
   CreatePage(e_PageID_CareerPressConference);
-}
-void CareerHubPage::GoLeagueExpansion() {
-  CreatePage(e_PageID_CareerLeagueExpansion);
-}
-void CareerHubPage::GoCustomLeague() {
-  CreatePage(e_PageID_CareerCustomLeague);
 }
 void CareerHubPage::GoFreeAgency() {
   CreatePage(e_PageID_CareerFreeAgency);
@@ -846,101 +856,6 @@ void CareerPressConferencePage::SelectAnswer(int answerIndex) {
   } else if (delta < 0) {
     CareerDatabase::GetInstance().ModifyBoardConfidence(-2);
   }
-  CreatePage(e_PageID_CareerHub);
-}
-
-// ---------------------------------------------------------------------------
-// CareerLeagueExpansionPage  (6.16)
-// ---------------------------------------------------------------------------
-
-CareerLeagueExpansionPage::CareerLeagueExpansionPage(Gui2WindowManager* windowManager,
-                                                     const Gui2PageData& pageData)
-    : Gui2Page(windowManager, pageData) {
-  AddCareerBackdrop(this, windowManager, "career_expansion_backdrop");
-  Gui2Caption* title = new Gui2Caption(windowManager, "caption_leagueexp", 10, 5, 80, 3,
-                                       "League Expansion & Relegation");
-  this->AddView(title);
-  title->Show();
-
-  Gui2Caption* info = new Gui2Caption(windowManager, "caption_leagueexp_info", 10, 12, 80, 3,
-                                      "Configure promotion and relegation for your league.");
-  this->AddView(info);
-  info->Show();
-
-  Gui2Button* btnEnable = new Gui2Button(windowManager, "btn_leagueexp_enable", 0, 0, 60, 3,
-                                         "Enable Promotion / Relegation");
-  Gui2Button* btnDisable = new Gui2Button(windowManager, "btn_leagueexp_disable", 0, 0, 60, 3,
-                                          "Disable Promotion / Relegation");
-  Gui2Button* btnAddDiv =
-      new Gui2Button(windowManager, "btn_leagueexp_adddiv", 0, 0, 60, 3, "Add Division");
-
-  btnEnable->sig_OnClick.connect([this](...) { EnableRelegation(); });
-  btnDisable->sig_OnClick.connect([this](...) { DisableRelegation(); });
-  btnAddDiv->sig_OnClick.connect([this](...) { AddDivision(); });
-
-  Gui2Grid* grid = new Gui2Grid(windowManager, "leagueexp_grid", 20, 20, 60, 60);
-  grid->AddView(btnEnable, 0, 0);
-  grid->AddView(btnDisable, 1, 0);
-  grid->AddView(btnAddDiv, 2, 0);
-  grid->UpdateLayout(0.5);
-
-  this->AddView(grid);
-  grid->Show();
-
-  btnEnable->SetFocus();
-  this->Show();
-}
-
-CareerLeagueExpansionPage::~CareerLeagueExpansionPage() {}
-
-void CareerLeagueExpansionPage::EnableRelegation() {
-  // Future: persist setting via CareerDatabase
-  CreatePage(e_PageID_CareerHub);
-}
-
-void CareerLeagueExpansionPage::DisableRelegation() {
-  // Future: persist setting via CareerDatabase
-  CreatePage(e_PageID_CareerHub);
-}
-
-void CareerLeagueExpansionPage::AddDivision() {
-  // Future: open a sub-page to configure the new division
-  CreatePage(e_PageID_CareerHub);
-}
-
-// ---------------------------------------------------------------------------
-// CareerCustomLeaguePage  (6.17)
-// ---------------------------------------------------------------------------
-
-CareerCustomLeaguePage::CareerCustomLeaguePage(Gui2WindowManager* windowManager,
-                                               const Gui2PageData& pageData)
-    : Gui2Page(windowManager, pageData) {
-  AddCareerBackdrop(this, windowManager, "career_custom_backdrop");
-  Gui2Caption* title = new Gui2Caption(windowManager, "caption_customleague", 10, 5, 80, 3,
-                                       "Custom League Creation");
-  this->AddView(title);
-  title->Show();
-
-  Gui2Caption* info =
-      new Gui2Caption(windowManager, "caption_customleague_info", 10, 12, 80, 3,
-                      "Design your own league: name, divisions, teams and cup competition.");
-  this->AddView(info);
-  info->Show();
-
-  Gui2Button* btnCreate = new Gui2Button(windowManager, "btn_customleague_create", 30, 50, 40, 3,
-                                         "Create Custom League");
-  btnCreate->sig_OnClick.connect([this](...) { CreateCustomLeague(); });
-  this->AddView(btnCreate);
-  btnCreate->Show();
-  btnCreate->SetFocus();
-
-  this->Show();
-}
-
-CareerCustomLeaguePage::~CareerCustomLeaguePage() {}
-
-void CareerCustomLeaguePage::CreateCustomLeague() {
-  // Future: collect name/divisions from user input widgets and persist via CareerDatabase
   CreatePage(e_PageID_CareerHub);
 }
 

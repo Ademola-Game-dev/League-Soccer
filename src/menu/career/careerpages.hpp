@@ -53,8 +53,6 @@ protected:
   void GoTransferMarket();
   void GoSquad();
   void GoPressConference();
-  void GoLeagueExpansion();
-  void GoCustomLeague();
   void GoFreeAgency();
   void GoTraining();
   void GoStrategy();
@@ -102,28 +100,6 @@ protected:
 
   // Reputation delta for each answer of the current question
   int m_reputationDeltas[3] = {5, 0, -5};
-};
-
-// 6.16 – League expansion / relegation configuration
-class CareerLeagueExpansionPage : public Gui2Page {
-public:
-  CareerLeagueExpansionPage(Gui2WindowManager* windowManager, const Gui2PageData& pageData);
-  virtual ~CareerLeagueExpansionPage();
-
-protected:
-  void EnableRelegation();
-  void DisableRelegation();
-  void AddDivision();
-};
-
-// 6.17 – Custom league creation
-class CareerCustomLeaguePage : public Gui2Page {
-public:
-  CareerCustomLeaguePage(Gui2WindowManager* windowManager, const Gui2PageData& pageData);
-  virtual ~CareerCustomLeaguePage();
-
-protected:
-  void CreateCustomLeague();
 };
 
 // Recruiting / Free Agency
